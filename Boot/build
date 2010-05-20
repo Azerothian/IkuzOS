@@ -1,0 +1,5 @@
+#!/bin/bash
+nasm boot.asm -f bin -o built/boot.bin
+dd if=built/boot.bin of=bootdisk.img conv=notrunc
+nasm starter.asm -f bin -o built/IKZLDR
+
