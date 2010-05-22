@@ -1,5 +1,11 @@
 #!/bin/bash
 nasm boot.asm -f bin -o built/boot.bin
-dd if=built/boot.bin of=bootdisk.img conv=notrunc
+#dd if=/dev/zero of=bootdisk.img bs=1K count=1440
+#dd if=built/boot.bin of=bootdisk.img conv=notrunc
 nasm starter.asm -f bin -o built/IKZLDR
-
+rm bootdisk.img
+mkfs.msdos -F 12 -C ./bootdisk.img 1440
+dd if=built/boot.bin of=bootdisk.img conv=notrunc
+sudo mount -o loop bootdisk.img floppy/
+sudo cp built/IKZLDR floppy/
+sudo umount floppy
