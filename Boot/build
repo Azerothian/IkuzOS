@@ -1,11 +1,44 @@
 #!/bin/bash
+
+if [ -d "built" ]; then
+
+#do nothing
+echo ""
+
+else
+
+echo "------ Creating build dir.."
+mkdir built
+
+fi
+
+echo "------ Compiling system..."
 nasm boot.asm -f bin -o built/boot.bin
-#dd if=/dev/zero of=bootdisk.img bs=1K count=1440
-#dd if=built/boot.bin of=bootdisk.img conv=notrunc
 nasm starter.asm -f bin -o built/IKZLDR
+echo "------ Creating Floppy image"
+if [ -d "floppy" ]; then
+#do nothing
+echo ""
+
+else
+echo "------ Creating floppy mount dir.."
+mkdir floppy
+fi
+if [ -a "bootdisk.img" ]; then
+echo "------ Removing pre-existing image.."
 rm bootdisk.img
+fi
+echo "------ Formatting New Image.."
 mkfs.msdos -F 12 -C ./bootdisk.img 1440
+echo "------ Applying boot sector.."
 dd if=built/boot.bin of=bootdisk.img conv=notrunc
+echo "------ Mounting Image"
 sudo mount -o loop bootdisk.img floppy/
+echo "------ Installing Kernel"
 sudo cp built/IKZLDR floppy/
+echo "------ Unmounting Image"
 sudo umount floppy
+echo "------ removing floppy mount dir.."
+rm -R floppy
+echo "------ Finished"
+
