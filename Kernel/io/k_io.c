@@ -6,12 +6,12 @@
  */
 #include "k_io.h"
 
-void outb(DW port, DB data)
+void outb(unsigned short port, unsigned char data)
 {
     __asm__ ("outb %1, %0"::"d"(port),"a"(data));
 }
 
-void outw(DW port, DW data)
+void outw(unsigned short port, unsigned char data)
 {
     __asm__ ("outw %1, %0"::"d"(port),"a"(data));
 }
