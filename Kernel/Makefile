@@ -16,7 +16,7 @@ AFLAGS=-f elf
 all: kernel
 
 kernel: main.o boot.o
-	$(LD) -T link.ld -o kernel.bin boot.o main.o
+	$(LD) -T link.ld -o IKZKERN boot.o main.o
 
 main.o: main.c
 	$(CC) $(CFLAGS) main.c

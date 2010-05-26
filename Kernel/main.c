@@ -31,8 +31,8 @@ void printxy(char *message, unsigned int x, unsigned int y)
     }
 }
 
-kernel_main()
+void _kernel_main()
 {
     clrscr();
-    printxy("Hello World", 0, 0);
+    printxy("IkuzOS - Starting Environment", 0, 0);
 }
