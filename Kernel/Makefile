@@ -9,7 +9,7 @@ AS=nasm
 endif
 
 # Compilation Flags
-CFLAGS=-c -Wall -Wextra -nostdlib -nostartfiles -nodefaultlibs -I includes
+CFLAGS=-c -Wall -Wextra -nostdlib -nostartfiles -nodefaultlibs -fno-omit-frame-pointer -I includes
 AFLAGS=-f elf
 
 # Build the whole Kernel

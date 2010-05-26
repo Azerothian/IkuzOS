@@ -1,7 +1,18 @@
-#define WHITE_SPACE 0x07
-#define VIDEO_MEMORY 0xb8000
 
-char *videoMemory = (char*) VIDEO_MEMORY;
+#include "main.h"
+
+/* -- Include the main kernel libraries for base functionality */
+#include <k_main.h>
+
+/**
+ * _kernel_main() - Main entry point for the IkuzOS Kernel
+ */
+void _kernel_main()
+{
+    clrscr();
+    printxy("IkuzOS - Starting Environment", 0, 0);
+
+}
 
 void clrscr()
 {
@@ -24,15 +35,9 @@ void printxy(char *message, unsigned int x, unsigned int y)
             y++;
             i=(y*80*2);
         } else {
-            videoMemory[i++]=*message;            
+            videoMemory[i++]=*message;
             videoMemory[i++]=WHITE_SPACE;
         }
         *message++;
     }
-}
-
-void _kernel_main()
-{
-    clrscr();
-    printxy("IkuzOS - Starting Environment", 0, 0);
 }

@@ -6,6 +6,7 @@
  */
 #include "k_io.h"
 
+
 void outb(unsigned short port, unsigned char data)
 {
     __asm__ ("outb %1, %0"::"d"(port),"a"(data));
