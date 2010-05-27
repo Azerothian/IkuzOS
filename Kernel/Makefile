@@ -8,22 +8,29 @@ LD=i386-elf-ld
 AS=nasm
 endif
 
+# Include Directories
+INCLUDES=includes
+
 # Compilation Flags
-CFLAGS=-c -Wall -Wextra -nostdlib -nostartfiles -nodefaultlibs -fno-omit-frame-pointer -I includes
+CFLAGS=-Wall -Wextra -nostdlib -nostartfiles -nodefaultlibs -fno-omit-frame-pointer -fno-builtin -ffreestanding
 AFLAGS=-f elf
+
+# Kernel Objects
+KOBJ=main.o libs/string.o
+
+#Rules
+%.o:%.c
+	$(CC) $(CFLAGS) -I $(INCLUDES) -c -o $@ $<
 
 # Build the whole Kernel
 all: kernel
 
-kernel: main.o boot.o
-	$(LD) -T link.ld -o IKZKERN boot.o main.o
-
-main.o: main.c
-	$(CC) $(CFLAGS) main.c
+kernel: $(KOBJ) boot.o
+	$(LD) -T link.ld -o IKZKERN boot.o $(KOBJ)
 
 boot.o: boot.s
 	$(AS) $(AFLAGS) boot.s -o boot.o
 
 clean:
-	rm -rf *.o
+	rm -rf $(foreach OBJ,$(KOBJ),$(OBJ))
 

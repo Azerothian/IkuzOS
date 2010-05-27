@@ -8,7 +8,7 @@
     #define __K_TYPES_H
 
     #ifndef __SIZE_T
-        #define size_t DD
+        #define size_t unsigned int
     #endif
 
 #endif

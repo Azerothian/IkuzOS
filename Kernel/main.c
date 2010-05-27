@@ -2,7 +2,7 @@
 #include "main.h"
 
 /* -- Include the main kernel libraries for base functionality */
-#include <k_main.h>
+#include "libs/string.h"
 
 /**
  * _kernel_main() - Main entry point for the IkuzOS Kernel
@@ -11,7 +11,6 @@ void _kernel_main()
 {
     clrscr();
     printxy("IkuzOS - Starting Environment", 0, 0);
-
 }
 
 void clrscr()
