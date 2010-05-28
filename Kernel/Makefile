@@ -39,3 +39,4 @@ boot.o: boot.s
 
 clean:
 	rm -rf $(foreach OBJ,$(KOBJ),$(OBJ))
+	rm -rf IKZKERN
