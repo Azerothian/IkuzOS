@@ -18,8 +18,11 @@ AFLAGS=-f elf
 # Kernel IO
 IOOBJ=io/cli.o io/sti.o io/hlt.o io/outb.o io/inb.o
 
+# Textmode Video
+TVIDOBJ=video/textmode.o
+
 # All Kernel Objects
-KOBJ=main.o $(IOOBJ)
+KOBJ=main.o $(IOOBJ) $(TVIDOBJ)
 
 #Rules
 %.o:%.c
