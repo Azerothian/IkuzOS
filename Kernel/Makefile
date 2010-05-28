@@ -15,8 +15,11 @@ INCLUDES=includes
 CFLAGS=-Wall -Wextra -nostdlib -nostartfiles -nodefaultlibs -fno-omit-frame-pointer -fno-builtin -ffreestanding
 AFLAGS=-f elf
 
-# Kernel Objects
-KOBJ=main.o libs/string.o
+# Kernel IO
+IOOBJ=io/cli.o io/sti.o io/hlt.o io/outb.o io/inb.o
+
+# All Kernel Objects
+KOBJ=main.o $(IOOBJ)
 
 #Rules
 %.o:%.c
@@ -33,4 +36,3 @@ boot.o: boot.s
 
 clean:
 	rm -rf $(foreach OBJ,$(KOBJ),$(OBJ))
-

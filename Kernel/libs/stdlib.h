@@ -8,7 +8,7 @@
 #ifndef _STDLIB_H
 #define	_STDLIB_H
 
-int atoi(char *num);
+    int atoi(char *num);
 
 #endif	/* _STDLIB_H */
 

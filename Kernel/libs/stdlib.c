@@ -5,6 +5,10 @@
  * Created on May 27, 2010, 11:33 PM
  */
 #include "stdlib.h"
+
+#include "ctype/ctype.h"
+
+
  int atoi(char *num)
   {
     int no;
