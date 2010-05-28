@@ -5,6 +5,8 @@
 #include <types.h>
 #include <io.h>
 #include <textmode.h>
+#include <fat.h>
+#include "drivers/ata/ata.h"
 
 /**
  * _kernel_main() - Main entry point for the IkuzOS Kernel
@@ -12,10 +14,10 @@
 void _kernel_main()
 {
     clear_screen();
-    kprint("IkuzOS is Starting Up!\n");
+    printk("IkuzOS is Starting Up!\n");
 
     // Halt the System
     set_color(RED);
-    kprint("System Is Now Halting.....\n");
-    hlt();
+    printk("System Is Now Halting.....\n");
+    //hlt();
 }

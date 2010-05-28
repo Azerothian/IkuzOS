@@ -16,10 +16,14 @@
     // Halt the CPU
     void hlt();
 
+    // Standard IO
+    void outb(unsigned short port, unsigned char val);
+    unsigned char inb(unsigned short port);
+    void insl(unsigned short port, unsigned int buffer, unsigned long count);
 
-    __inline__ void outb(unsigned short port, unsigned char val);
-
-    
-    __inline__ unsigned char inb(unsigned short port);
+    // PC Speaker
+    void k_pcspk_play_sound(unsigned int nFrequence);
+    void k_pcspk_nosound();
+    void kbeep();
 
 #endif

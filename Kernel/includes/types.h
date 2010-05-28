@@ -25,5 +25,18 @@
     #define cast_intp(x) ((int*) (x))
     #define cast_voidp(x) ((void*) (x))
 
+    // Date Type
+    typedef struct
+    {
+        char mm,dd;
+        int yy;
+    }DATE;
+
+    // Time Type
+    typedef struct
+    {
+        int hour,min,sec;
+    }TIME;
+
 
 #endif

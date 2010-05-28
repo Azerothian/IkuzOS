@@ -14,19 +14,26 @@ INCLUDES=includes
 # Compilation Flags
 CFLAGS=-Wall -Wextra -nostdlib -nostartfiles -nodefaultlibs -fno-omit-frame-pointer -fno-builtin -ffreestanding
 AFLAGS=-f elf
+CDEBUG=-D__DEBUG__
 
 # Kernel IO
-IOOBJ=io/cli.o io/sti.o io/hlt.o io/outb.o io/inb.o
+IOOBJ=io/cli.o io/sti.o io/hlt.o io/outb.o io/inb.o io/insl.o io/pcspk.o
+
+# Hardware Drivers
+HWIOBJ=drivers/ata/ata.o
 
 # Textmode Video
 TVIDOBJ=video/textmode.o
 
+# Filesystem Objects
+FSOBJ=fs/fat_12.o fs/fat_32.o
+
 # All Kernel Objects
-KOBJ=main.o $(IOOBJ) $(TVIDOBJ)
+KOBJ=main.o $(IOOBJ) $(TVIDOBJ) $(FSOBJ) $(HWIOBJ)
 
 #Rules
 %.o:%.c
-	$(CC) $(CFLAGS) -I $(INCLUDES) -c -o $@ $<
+	$(CC) $(CFLAGS) -I $(INCLUDES) $(CDEBUG) -c -o $@ $<
 
 # Build the whole Kernel
 all: kernel
@@ -39,4 +46,5 @@ boot.o: boot.s
 
 clean:
 	rm -rf $(foreach OBJ,$(KOBJ),$(OBJ))
+	rm -rf boot.o
 	rm -rf IKZKERN

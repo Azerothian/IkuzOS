@@ -15,7 +15,7 @@ char *texmem = cast_charp(0xB8000);
 char *cline = cast_charp(0xB8000);
 unsigned char color = 0x07; //white
 
-void kprint(char *s)
+void printk(char *s)
 {
     while(*s != '\0')
     {
@@ -44,7 +44,7 @@ void newline()
 void print_hex(unsigned int i)
 {
 
-    kprint("0x");
+    printk("0x");
 
     int counter = 8;
     unsigned char cur;
@@ -97,12 +97,12 @@ void print_int( unsigned int c)
 {
     if ( c == 0 )
     {
-        kprint( "0" );
+        printk( "0" );
     }
     else
     {
         printInt_internal( c, 10);
-        kprint( "" );
+        printk( "" );
     }
 }
 
@@ -110,12 +110,12 @@ void print_bin( unsigned int c)
 {
     if ( c == 0 )
     {
-        kprint( "0" );
+        printk( "0" );
     }
     else
     {
         printInt_internal( c, 2);
-        kprint( "" );
+        printk( "" );
     }
 }
 
