@@ -38,13 +38,13 @@ KOBJ=main.o $(IOOBJ) $(TVIDOBJ) $(FSOBJ) $(HWIOBJ)
 # Build the whole Kernel
 all: kernel
 
-kernel: $(KOBJ) boot.o
-	$(LD) -T link.ld -o IKZKERN boot.o $(KOBJ)
+kernel: $(KOBJ) boot.no
+	$(LD) -T link.ld -o IKZKERN arch/i386/boot.no $(KOBJ)
 
-boot.o: boot.s
-	$(AS) $(AFLAGS) boot.s -o boot.o
+boot.no: 
+	$(AS) $(AFLAGS) arch/i386/boot.s -o arch/i386/boot.no
 
 clean:
 	rm -rf $(foreach OBJ,$(KOBJ),$(OBJ))
-	rm -rf boot.o
+	rm -rf arch/i386/boot.no
 	rm -rf IKZKERN

@@ -8,19 +8,8 @@
 
 /* Begin PBXFileReference section */
 		F28B31DA11B34EC50064A9DC /* boot.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = boot.s; sourceTree = "<group>"; };
-		F28B31DB11B34EC50064A9DC /* asm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asm.c; sourceTree = "<group>"; };
-		F28B31DC11B34EC50064A9DC /* asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asm.h; sourceTree = "<group>"; };
-		F28B31E011B34EC50064A9DC /* categories.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = categories.pbxbtree; sourceTree = "<group>"; };
-		F28B31E111B34EC50064A9DC /* cdecls.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = cdecls.pbxbtree; sourceTree = "<group>"; };
-		F28B31E211B34EC50064A9DC /* decls.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = decls.pbxbtree; sourceTree = "<group>"; };
-		F28B31E311B34EC50064A9DC /* files.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = files.pbxbtree; sourceTree = "<group>"; };
-		F28B31E411B34EC50064A9DC /* imports.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = imports.pbxbtree; sourceTree = "<group>"; };
-		F28B31E511B34EC50064A9DC /* pbxindex.header */ = {isa = PBXFileReference; lastKnownFileType = file; path = pbxindex.header; sourceTree = "<group>"; };
-		F28B31E611B34EC50064A9DC /* protocols.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = protocols.pbxbtree; sourceTree = "<group>"; };
-		F28B31E711B34EC50064A9DC /* refs.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = refs.pbxbtree; sourceTree = "<group>"; };
-		F28B31E911B34EC50064A9DC /* control */ = {isa = PBXFileReference; lastKnownFileType = file; path = control; sourceTree = "<group>"; };
-		F28B31EA11B34EC50064A9DC /* strings */ = {isa = PBXFileReference; lastKnownFileType = file; path = strings; sourceTree = "<group>"; };
-		F28B31EB11B34EC50064A9DC /* subclasses.pbxbtree */ = {isa = PBXFileReference; lastKnownFileType = file; path = subclasses.pbxbtree; sourceTree = "<group>"; };
+		F28B31DB11B34EC50064A9DC /* asm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = asm.c; path = ../../asm.c; sourceTree = "<group>"; };
+		F28B31DC11B34EC50064A9DC /* asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asm.h; path = ../../asm.h; sourceTree = "<group>"; };
 		F28B31EE11B34EC50064A9DC /* ata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ata.c; sourceTree = "<group>"; };
 		F28B31EF11B34EC50064A9DC /* ata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ata.h; sourceTree = "<group>"; };
 		F28B31F111B34EC50064A9DC /* fat_12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fat_12.c; sourceTree = "<group>"; };
@@ -48,16 +37,6 @@
 		F28B320C11B34EC50064A9DC /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F28B320D11B34EC50064A9DC /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		F28B320E11B34EC50064A9DC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		F28B321011B34EC50064A9DC /* configurations.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = configurations.xml; sourceTree = "<group>"; };
-		F28B321111B34EC50064A9DC /* Makefile-Default.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Makefile-Default.mk"; sourceTree = "<group>"; };
-		F28B321211B34EC50064A9DC /* Makefile-impl.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Makefile-impl.mk"; sourceTree = "<group>"; };
-		F28B321311B34EC50064A9DC /* Makefile-variables.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Makefile-variables.mk"; sourceTree = "<group>"; };
-		F28B321411B34EC50064A9DC /* Package-Default.bash */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Package-Default.bash"; sourceTree = "<group>"; };
-		F28B321611B34EC50064A9DC /* configurations.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = configurations.xml; sourceTree = "<group>"; };
-		F28B321711B34EC50064A9DC /* private.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private.properties; sourceTree = "<group>"; };
-		F28B321811B34EC50064A9DC /* private.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = private.xml; sourceTree = "<group>"; };
-		F28B321911B34EC50064A9DC /* project.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = project.properties; sourceTree = "<group>"; };
-		F28B321A11B34EC50064A9DC /* project.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = project.xml; sourceTree = "<group>"; };
 		F28B321C11B34EC50064A9DC /* textmode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = textmode.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,9 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				F28B31D811B34EC50064A9DC /* arch */,
-				F28B31DB11B34EC50064A9DC /* asm.c */,
-				F28B31DC11B34EC50064A9DC /* asm.h */,
-				F28B31DD11B34EC50064A9DC /* build */,
 				F28B31EC11B34EC50064A9DC /* drivers */,
 				F28B31F011B34EC50064A9DC /* fs */,
 				F28B31F511B34EC50064A9DC /* includes */,
@@ -78,7 +54,6 @@
 				F28B320C11B34EC50064A9DC /* main.c */,
 				F28B320D11B34EC50064A9DC /* main.h */,
 				F28B320E11B34EC50064A9DC /* Makefile */,
-				F28B320F11B34EC50064A9DC /* nbproject */,
 				F28B321B11B34EC50064A9DC /* video */,
 			);
 			name = Kernel;
@@ -95,51 +70,11 @@
 		F28B31D911B34EC50064A9DC /* i386 */ = {
 			isa = PBXGroup;
 			children = (
+				F28B31DC11B34EC50064A9DC /* asm.h */,
+				F28B31DB11B34EC50064A9DC /* asm.c */,
 				F28B31DA11B34EC50064A9DC /* boot.s */,
 			);
 			path = i386;
-			sourceTree = "<group>";
-		};
-		F28B31DD11B34EC50064A9DC /* build */ = {
-			isa = PBXGroup;
-			children = (
-				F28B31DE11B34EC50064A9DC /* Kernel.build */,
-			);
-			path = build;
-			sourceTree = "<group>";
-		};
-		F28B31DE11B34EC50064A9DC /* Kernel.build */ = {
-			isa = PBXGroup;
-			children = (
-				F28B31DF11B34EC50064A9DC /* Kernel.pbxindex */,
-			);
-			path = Kernel.build;
-			sourceTree = "<group>";
-		};
-		F28B31DF11B34EC50064A9DC /* Kernel.pbxindex */ = {
-			isa = PBXGroup;
-			children = (
-				F28B31E011B34EC50064A9DC /* categories.pbxbtree */,
-				F28B31E111B34EC50064A9DC /* cdecls.pbxbtree */,
-				F28B31E211B34EC50064A9DC /* decls.pbxbtree */,
-				F28B31E311B34EC50064A9DC /* files.pbxbtree */,
-				F28B31E411B34EC50064A9DC /* imports.pbxbtree */,
-				F28B31E511B34EC50064A9DC /* pbxindex.header */,
-				F28B31E611B34EC50064A9DC /* protocols.pbxbtree */,
-				F28B31E711B34EC50064A9DC /* refs.pbxbtree */,
-				F28B31E811B34EC50064A9DC /* strings.pbxstrings */,
-				F28B31EB11B34EC50064A9DC /* subclasses.pbxbtree */,
-			);
-			path = Kernel.pbxindex;
-			sourceTree = "<group>";
-		};
-		F28B31E811B34EC50064A9DC /* strings.pbxstrings */ = {
-			isa = PBXGroup;
-			children = (
-				F28B31E911B34EC50064A9DC /* control */,
-				F28B31EA11B34EC50064A9DC /* strings */,
-			);
-			path = strings.pbxstrings;
 			sourceTree = "<group>";
 		};
 		F28B31EC11B34EC50064A9DC /* drivers */ = {
@@ -222,31 +157,6 @@
 				F28B320A11B34EC50064A9DC /* string.h */,
 			);
 			path = string;
-			sourceTree = "<group>";
-		};
-		F28B320F11B34EC50064A9DC /* nbproject */ = {
-			isa = PBXGroup;
-			children = (
-				F28B321011B34EC50064A9DC /* configurations.xml */,
-				F28B321111B34EC50064A9DC /* Makefile-Default.mk */,
-				F28B321211B34EC50064A9DC /* Makefile-impl.mk */,
-				F28B321311B34EC50064A9DC /* Makefile-variables.mk */,
-				F28B321411B34EC50064A9DC /* Package-Default.bash */,
-				F28B321511B34EC50064A9DC /* private */,
-				F28B321911B34EC50064A9DC /* project.properties */,
-				F28B321A11B34EC50064A9DC /* project.xml */,
-			);
-			path = nbproject;
-			sourceTree = "<group>";
-		};
-		F28B321511B34EC50064A9DC /* private */ = {
-			isa = PBXGroup;
-			children = (
-				F28B321611B34EC50064A9DC /* configurations.xml */,
-				F28B321711B34EC50064A9DC /* private.properties */,
-				F28B321811B34EC50064A9DC /* private.xml */,
-			);
-			path = private;
 			sourceTree = "<group>";
 		};
 		F28B321B11B34EC50064A9DC /* video */ = {

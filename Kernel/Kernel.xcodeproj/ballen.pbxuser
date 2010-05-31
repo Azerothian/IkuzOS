@@ -13,9 +13,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					670,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -55,12 +55,45 @@
 			PBXPerProjectTemplateStateSaveDate = 296963760;
 			PBXWorkspaceStateSaveDate = 296963760;
 		};
+		perUserProjectItems = {
+			F28B322D11B35CB40064A9DC /* PBXTextBookmark */ = F28B322D11B35CB40064A9DC /* PBXTextBookmark */;
+			F28B322E11B35CB40064A9DC /* PBXTextBookmark */ = F28B322E11B35CB40064A9DC /* PBXTextBookmark */;
+			F28B322F11B35CB40064A9DC /* PBXBookmark */ = F28B322F11B35CB40064A9DC /* PBXBookmark */;
+			F28B323011B35CB40064A9DC /* PBXTextBookmark */ = F28B323011B35CB40064A9DC /* PBXTextBookmark */;
+			F28B323111B35CB40064A9DC /* PBXTextBookmark */ = F28B323111B35CB40064A9DC /* PBXTextBookmark */;
+			F28B323211B35CB40064A9DC /* PBXTextBookmark */ = F28B323211B35CB40064A9DC /* PBXTextBookmark */;
+			F28B323911B35D010064A9DC /* PBXTextBookmark */ = F28B323911B35D010064A9DC /* PBXTextBookmark */;
+		};
 		sourceControlManager = F28B321D11B34EC50064A9DC /* Source Control */;
 		userBuildSettings = {
 		};
 	};
 	D28A88AD04BDD90700651E21 /* Kernel */ = {
 		activeExec = 0;
+	};
+	F28B31DA11B34EC50064A9DC /* boot.s */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 350}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 184}";
+			sepNavWindowFrame = "{{107, 275}, {1038, 664}}";
+		};
+	};
+	F28B31DB11B34EC50064A9DC /* asm.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 434}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 104}";
+			sepNavWindowFrame = "{{130, 254}, {1038, 664}}";
+		};
+	};
+	F28B320E11B34EC50064A9DC /* Makefile */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 700}}";
+			sepNavSelRange = "{990, 0}";
+			sepNavVisRange = "{189, 824}";
+			sepNavWindowFrame = "{{84, 296}, {1038, 664}}";
+		};
 	};
 	F28B321D11B34EC50064A9DC /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -72,5 +105,69 @@
 	F28B321E11B34EC50064A9DC /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	F28B322D11B35CB40064A9DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B320E11B34EC50064A9DC /* Makefile */;
+		name = "Makefile: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 0;
+	};
+	F28B322E11B35CB40064A9DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B31DA11B34EC50064A9DC /* boot.s */;
+		name = "boot.s: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 184;
+		vrLoc = 0;
+	};
+	F28B322F11B35CB40064A9DC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F28B31DB11B34EC50064A9DC /* asm.c */;
+	};
+	F28B323011B35CB40064A9DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B320E11B34EC50064A9DC /* Makefile */;
+		name = "Makefile: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 0;
+	};
+	F28B323111B35CB40064A9DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B31DA11B34EC50064A9DC /* boot.s */;
+		name = "boot.s: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 184;
+		vrLoc = 0;
+	};
+	F28B323211B35CB40064A9DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B31DB11B34EC50064A9DC /* asm.c */;
+		name = "asm.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 104;
+		vrLoc = 0;
+	};
+	F28B323911B35D010064A9DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B31DB11B34EC50064A9DC /* asm.c */;
+		name = "asm.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 104;
+		vrLoc = 0;
 	};
 }
