@@ -266,12 +266,17 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>08FB7794FE84155DC02AAC07</string>
+								<string>F28B31D811B34EC50064A9DC</string>
+								<string>F28B31D911B34EC50064A9DC</string>
+								<string>F28B31F511B34EC50064A9DC</string>
+								<string>F28B332711B36F400064A9DC</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -295,7 +300,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>227 159 1117 752 0 0 1680 1028 </string>
+						<string>72 122 1117 752 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -311,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>asm.c</string>
+								<string>boot.s</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -319,21 +324,48 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>asm.c</string>
+										<string>boot.s</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F28B323911B35D010064A9DC</string>
+										<string>F28B336111B37F230064A9DC</string>
 										<key>history</key>
 										<array>
-											<string>F28B322D11B35CB40064A9DC</string>
-											<string>F28B322E11B35CB40064A9DC</string>
-											<string>F28B322F11B35CB40064A9DC</string>
+											<string>F28B324F11B35E580064A9DC</string>
+											<string>F28B327311B366520064A9DC</string>
+											<string>F28B327411B366520064A9DC</string>
+											<string>F28B327511B366520064A9DC</string>
+											<string>F28B327611B366520064A9DC</string>
+											<string>F28B327711B366520064A9DC</string>
+											<string>F28B327811B366520064A9DC</string>
+											<string>F28B327B11B366520064A9DC</string>
+											<string>F28B333E11B370310064A9DC</string>
+											<string>F28B327911B366520064A9DC</string>
 										</array>
 										<key>prevStack</key>
 										<array>
 											<string>F28B323011B35CB40064A9DC</string>
-											<string>F28B323111B35CB40064A9DC</string>
+											<string>F28B325211B35E580064A9DC</string>
+											<string>F28B325311B35E580064A9DC</string>
+											<string>F28B325411B35E580064A9DC</string>
+											<string>F28B327D11B366520064A9DC</string>
+											<string>F28B327E11B366520064A9DC</string>
+											<string>F28B327F11B366520064A9DC</string>
+											<string>F28B328011B366520064A9DC</string>
+											<string>F28B328111B366520064A9DC</string>
+											<string>F28B328211B366520064A9DC</string>
+											<string>F28B328311B366520064A9DC</string>
+											<string>F28B328411B366520064A9DC</string>
+											<string>F28B328511B366520064A9DC</string>
+											<string>F28B328611B366520064A9DC</string>
+											<string>F28B328711B366520064A9DC</string>
+											<string>F28B328811B366520064A9DC</string>
+											<string>F28B328A11B366520064A9DC</string>
+											<string>F28B328C11B366520064A9DC</string>
+											<string>F28B328E11B366520064A9DC</string>
+											<string>F28B333311B36F870064A9DC</string>
+											<string>F28B333F11B370310064A9DC</string>
+											<string>F28B334011B370310064A9DC</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -347,7 +379,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {909, 132}}</string>
 								<key>RubberWindowFrame</key>
-								<string>227 159 1117 752 0 0 1680 1028 </string>
+								<string>72 122 1117 752 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -367,7 +399,7 @@
 								<key>Frame</key>
 								<string>{{0, 137}, {909, 574}}</string>
 								<key>RubberWindowFrame</key>
-								<string>227 159 1117 752 0 0 1680 1028 </string>
+								<string>72 122 1117 752 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -527,11 +559,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>F28B323A11B35D010064A9DC</string>
 		<string>/Development/IkuzOS/Kernel/Kernel.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>227 159 1117 752 0 0 1680 1028 </string>
+	<string>72 122 1117 752 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

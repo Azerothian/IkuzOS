@@ -52,17 +52,17 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 296963760;
-			PBXWorkspaceStateSaveDate = 296963760;
+			PBXPerProjectTemplateStateSaveDate = 296976163;
+			PBXWorkspaceStateSaveDate = 296976163;
 		};
 		perUserProjectItems = {
-			F28B322D11B35CB40064A9DC /* PBXTextBookmark */ = F28B322D11B35CB40064A9DC /* PBXTextBookmark */;
-			F28B322E11B35CB40064A9DC /* PBXTextBookmark */ = F28B322E11B35CB40064A9DC /* PBXTextBookmark */;
-			F28B322F11B35CB40064A9DC /* PBXBookmark */ = F28B322F11B35CB40064A9DC /* PBXBookmark */;
-			F28B323011B35CB40064A9DC /* PBXTextBookmark */ = F28B323011B35CB40064A9DC /* PBXTextBookmark */;
-			F28B323111B35CB40064A9DC /* PBXTextBookmark */ = F28B323111B35CB40064A9DC /* PBXTextBookmark */;
-			F28B323211B35CB40064A9DC /* PBXTextBookmark */ = F28B323211B35CB40064A9DC /* PBXTextBookmark */;
-			F28B323911B35D010064A9DC /* PBXTextBookmark */ = F28B323911B35D010064A9DC /* PBXTextBookmark */;
+			F28B322D11B35CB40064A9DC = F28B322D11B35CB40064A9DC /* PBXTextBookmark */;
+			F28B322E11B35CB40064A9DC = F28B322E11B35CB40064A9DC /* PBXTextBookmark */;
+			F28B322F11B35CB40064A9DC = F28B322F11B35CB40064A9DC /* PBXBookmark */;
+			F28B323011B35CB40064A9DC = F28B323011B35CB40064A9DC /* PBXTextBookmark */;
+			F28B323111B35CB40064A9DC = F28B323111B35CB40064A9DC /* PBXTextBookmark */;
+			F28B323211B35CB40064A9DC = F28B323211B35CB40064A9DC /* PBXTextBookmark */;
+			F28B323911B35D010064A9DC = F28B323911B35D010064A9DC /* PBXTextBookmark */;
 		};
 		sourceControlManager = F28B321D11B34EC50064A9DC /* Source Control */;
 		userBuildSettings = {
@@ -71,11 +71,11 @@
 	D28A88AD04BDD90700651E21 /* Kernel */ = {
 		activeExec = 0;
 	};
-	F28B31DA11B34EC50064A9DC /* boot.s */ = {
+	F28B31DA11B34EC50064A9DC /* boot.asm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 350}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 184}";
+			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
+			sepNavSelRange = "{510, 0}";
+			sepNavVisRange = "{0, 568}";
 			sepNavWindowFrame = "{{107, 275}, {1038, 664}}";
 		};
 	};
@@ -86,19 +86,29 @@
 		name = asm.c;
 		path = /Development/IkuzOS/Kernel/asm.c;
 		sourceTree = "<absolute>";
+	};
+	F28B320C11B34EC50064A9DC /* main.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 434}}";
+			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
+			sepNavSelRange = "{216, 0}";
+			sepNavVisRange = "{0, 469}";
+			sepNavWindowFrame = "{{337, 65}, {1038, 664}}";
+		};
+	};
+	F28B320D11B34EC50064A9DC /* main.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 100}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 104}";
-			sepNavWindowFrame = "{{130, 254}, {1038, 664}}";
+			sepNavWindowFrame = "{{314, 86}, {1038, 664}}";
 		};
 	};
 	F28B320E11B34EC50064A9DC /* Makefile */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {979, 700}}";
-			sepNavSelRange = "{990, 0}";
-			sepNavVisRange = "{189, 824}";
-			sepNavWindowFrame = "{{84, 296}, {1038, 664}}";
+			sepNavIntBoundsRect = "{{0, 0}, {979, 770}}";
+			sepNavSelRange = "{962, 0}";
+			sepNavVisRange = "{249, 801}";
+			sepNavWindowFrame = "{{189, 199}, {1038, 664}}";
 		};
 	};
 	F28B321D11B34EC50064A9DC /* Source Control */ = {
@@ -124,7 +134,7 @@
 	};
 	F28B322E11B35CB40064A9DC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = F28B31DA11B34EC50064A9DC /* boot.s */;
+		fRef = F28B31DA11B34EC50064A9DC /* boot.asm */;
 		name = "boot.s: 1";
 		rLen = 0;
 		rLoc = 0;
@@ -148,7 +158,7 @@
 	};
 	F28B323111B35CB40064A9DC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = F28B31DA11B34EC50064A9DC /* boot.s */;
+		fRef = F28B31DA11B34EC50064A9DC /* boot.asm */;
 		name = "boot.s: 1";
 		rLen = 0;
 		rLoc = 0;
@@ -175,5 +185,20 @@
 		rType = 0;
 		vrLen = 104;
 		vrLoc = 0;
+	};
+	F28B323E11B35D830064A9DC /* asm.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 658}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 102}";
+		};
+	};
+	F28B337211B3807D0064A9DC /* boot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 154}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 136}";
+			sepNavWindowFrame = "{{484, 104}, {1038, 664}}";
+		};
 	};
 }

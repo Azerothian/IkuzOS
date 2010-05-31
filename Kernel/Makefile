@@ -5,16 +5,22 @@ ifeq ($(UNAME), Darwin)
 # Compilers to Use for MacOS X using Macports gcc
 CC=i386-elf-gcc-4.3.2
 LD=i386-elf-ld
-AS=nasm
+NASM=nasm
 endif
+
+# Architecture to Build For
+ARCH=i386
 
 # Include Directories
 INCLUDES=includes
 
 # Compilation Flags
 CFLAGS=-Wall -Wextra -nostdlib -nostartfiles -nodefaultlibs -fno-omit-frame-pointer -fno-builtin -ffreestanding
-AFLAGS=-f elf
 CDEBUG=-D__DEBUG__
+NASMFLAGS=-f elf
+
+# Kernel Loader
+KLDROBJ=arch/$(ARCH)/boot.o
 
 # Kernel IO
 IOOBJ=io/cli.o io/sti.o io/hlt.o io/outb.o io/inb.o io/insl.o io/pcspk.o
@@ -29,22 +35,21 @@ TVIDOBJ=video/textmode.o
 FSOBJ=fs/fat_12.o fs/fat_32.o
 
 # All Kernel Objects
-KOBJ=main.o $(IOOBJ) $(TVIDOBJ) $(FSOBJ) $(HWIOBJ)
+KOBJ=$(KLDROBJ) main.o $(IOOBJ) $(TVIDOBJ) $(FSOBJ) $(HWIOBJ)
 
 #Rules
 %.o:%.c
 	$(CC) $(CFLAGS) -I $(INCLUDES) $(CDEBUG) -c -o $@ $<
 
+%.o:%.asm
+	$(NASM) $(NASMFLAGS) $< -o $@
+
 # Build the whole Kernel
 all: kernel
 
-kernel: $(KOBJ) boot.no
-	$(LD) -T link.ld -o IKZKERN arch/i386/boot.no $(KOBJ)
-
-boot.no: 
-	$(AS) $(AFLAGS) arch/i386/boot.s -o arch/i386/boot.no
+kernel: $(KOBJ)
+	$(LD) -T arch/$(ARCH)/link.ld -o IKZKERN $(KOBJ)
 
 clean:
 	rm -rf $(foreach OBJ,$(KOBJ),$(OBJ))
-	rm -rf arch/i386/boot.no
 	rm -rf IKZKERN

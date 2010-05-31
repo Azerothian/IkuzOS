@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		F28B31DA11B34EC50064A9DC /* boot.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = boot.s; sourceTree = "<group>"; };
+		F28B31DA11B34EC50064A9DC /* boot.asm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm.asm; path = boot.asm; sourceTree = "<group>"; };
 		F28B31EE11B34EC50064A9DC /* ata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ata.c; sourceTree = "<group>"; };
 		F28B31EF11B34EC50064A9DC /* ata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ata.h; sourceTree = "<group>"; };
 		F28B31F111B34EC50064A9DC /* fat_12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fat_12.c; sourceTree = "<group>"; };
@@ -31,13 +31,14 @@
 		F28B320711B34EC50064A9DC /* stdlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdlib.h; sourceTree = "<group>"; };
 		F28B320911B34EC50064A9DC /* string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = string.c; sourceTree = "<group>"; };
 		F28B320A11B34EC50064A9DC /* string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string.h; sourceTree = "<group>"; };
-		F28B320B11B34EC50064A9DC /* link.ld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.ld; sourceTree = "<group>"; };
 		F28B320C11B34EC50064A9DC /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F28B320D11B34EC50064A9DC /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		F28B320E11B34EC50064A9DC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		F28B321C11B34EC50064A9DC /* textmode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = textmode.c; sourceTree = "<group>"; };
 		F28B323D11B35D830064A9DC /* asm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asm.c; sourceTree = "<group>"; };
 		F28B323E11B35D830064A9DC /* asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asm.h; sourceTree = "<group>"; };
+		F28B337211B3807D0064A9DC /* boot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boot.h; sourceTree = "<group>"; };
+		F28B339911B383020064A9DC /* link.ld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.ld; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -50,7 +51,6 @@
 				F28B31F511B34EC50064A9DC /* includes */,
 				F28B31FA11B34EC50064A9DC /* io */,
 				F28B320211B34EC50064A9DC /* libs */,
-				F28B320B11B34EC50064A9DC /* link.ld */,
 				F28B320C11B34EC50064A9DC /* main.c */,
 				F28B320D11B34EC50064A9DC /* main.h */,
 				F28B320E11B34EC50064A9DC /* Makefile */,
@@ -70,9 +70,11 @@
 		F28B31D911B34EC50064A9DC /* i386 */ = {
 			isa = PBXGroup;
 			children = (
+				F28B339911B383020064A9DC /* link.ld */,
 				F28B323D11B35D830064A9DC /* asm.c */,
 				F28B323E11B35D830064A9DC /* asm.h */,
-				F28B31DA11B34EC50064A9DC /* boot.s */,
+				F28B31DA11B34EC50064A9DC /* boot.asm */,
+				F28B337211B3807D0064A9DC /* boot.h */,
 			);
 			path = i386;
 			sourceTree = "<group>";
