@@ -80,6 +80,12 @@
 		};
 	};
 	F28B31DB11B34EC50064A9DC /* asm.c */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.c;
+		name = asm.c;
+		path = /Development/IkuzOS/Kernel/asm.c;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {848, 434}}";
 			sepNavSelRange = "{0, 0}";
