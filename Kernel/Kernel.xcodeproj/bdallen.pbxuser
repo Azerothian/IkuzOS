@@ -1,0 +1,124 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D28A88AD04BDD90700651E21 /* Kernel */;
+		addToTargets = (
+		);
+		codeSenseManager = 1F5BB35A11B3A78E00ECB9D8 /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 296986479;
+			PBXWorkspaceStateSaveDate = 296986479;
+		};
+		sourceControlManager = 1F5BB35911B3A78E00ECB9D8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	1F5BB35911B3A78E00ECB9D8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1F5BB35A11B3A78E00ECB9D8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1F5BB35F11B3A7D900ECB9D8 /* cpu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 490}}";
+			sepNavSelRange = "{199, 0}";
+			sepNavVisRange = "{0, 210}";
+			sepNavWindowFrame = "{{194, 33}, {1246, 638}}";
+		};
+	};
+	1F5BB36011B3A7D900ECB9D8 /* cpu.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 490}}";
+			sepNavSelRange = "{191, 0}";
+			sepNavVisRange = "{0, 481}";
+			sepNavWindowFrame = "{{221, 178}, {1246, 638}}";
+		};
+	};
+	D28A88AD04BDD90700651E21 /* Kernel */ = {
+		activeExec = 0;
+	};
+	F28B31F611B34EC50064A9DC /* fat.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 197}";
+		};
+	};
+	F28B31F711B34EC50064A9DC /* io.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {551, 377}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{144, 424}";
+		};
+	};
+	F28B31F911B34EC50064A9DC /* types.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1187, 585}}";
+			sepNavSelRange = "{771, 0}";
+			sepNavVisRange = "{0, 959}";
+			sepNavWindowFrame = "{{158, 156}, {1246, 638}}";
+		};
+	};
+	F28B31FC11B34EC50064A9DC /* hlt.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 166}";
+		};
+	};
+	F28B31FD11B34EC50064A9DC /* inb.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 260}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{4, 253}";
+			sepNavWindowFrame = "{{38, 214}, {1246, 638}}";
+		};
+	};
+	F28B31FE11B34EC50064A9DC /* insl.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 163}";
+		};
+	};
+	F28B320E11B34EC50064A9DC /* Makefile */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1187, 767}}";
+			sepNavSelRange = "{818, 0}";
+			sepNavVisRange = "{168, 771}";
+			sepNavWindowFrame = "{{666, 169}, {1246, 638}}";
+		};
+	};
+	F28B323D11B35D830064A9DC /* asm.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 403}}";
+			sepNavSelRange = "{84, 0}";
+			sepNavVisRange = "{0, 247}";
+		};
+	};
+	F28B323E11B35D830064A9DC /* asm.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1187, 520}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{0, 1553}";
+			sepNavWindowFrame = "{{107, 151}, {1246, 638}}";
+		};
+	};
+	F28B337211B3807D0064A9DC /* boot.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 171}";
+		};
+	};
+}
