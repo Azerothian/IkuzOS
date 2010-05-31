@@ -22,6 +22,9 @@ NASMFLAGS=-f elf
 # Kernel Loader
 KLDROBJ=arch/$(ARCH)/boot.o
 
+#Kernel x86 Code
+x86OBJ=arch/i386/cpu.o
+
 # Kernel IO
 IOOBJ=io/cli.o io/sti.o io/hlt.o io/outb.o io/inb.o io/insl.o io/pcspk.o
 
@@ -35,7 +38,7 @@ TVIDOBJ=video/textmode.o
 FSOBJ=fs/fat_12.o fs/fat_32.o
 
 # All Kernel Objects
-KOBJ=$(KLDROBJ) main.o $(IOOBJ) $(TVIDOBJ) $(FSOBJ) $(HWIOBJ)
+KOBJ=$(KLDROBJ) main.o $(IOOBJ) $(TVIDOBJ) $(FSOBJ) $(HWIOBJ) $(x86OBJ)
 
 #Rules
 %.o:%.c
