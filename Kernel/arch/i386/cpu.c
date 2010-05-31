@@ -36,3 +36,33 @@ __inline__ void set_cr0(unsigned long cr0)
 {
 	asm volatile("movl %0, %%cr0" :: "a" (cr0));
 }
+
+/* Get the current value of the cr3 register */
+__inline__ unsigned long get_cr3(void)
+{
+	unsigned long cr3;
+	asm volatile("movl %%cr3, %0" : "=a" (cr3));
+	return cr3;
+}
+
+/* Set the current value of the cr3 register */
+__inline__ void set_cr3(unsigned long cr3)
+{
+	asm volatile("movl %0, %%cr3" :: "a" (cr3));
+}
+
+/* Get the current value of the cr4 register */
+__inline__ unsigned long get_cr4(void)
+{
+	unsigned long cr4;
+	asm volatile("movl %%cr4, %0" : "=a" (cr4));
+	return cr4;
+}
+
+/* Set the current value of the cr4 register */
+__inline__ void set_cr4(unsigned long cr4)
+{
+	asm volatile("movl %0, %%cr4" :: "a" (cr4));
+}
+
+

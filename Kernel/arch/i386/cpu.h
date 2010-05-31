@@ -92,4 +92,8 @@ unsigned long get_eflags(void);
 void set_eflags(unsigned long eflags);
 unsigned long get_cr0(void);
 void set_cr0(unsigned long cr0);
+unsigned long get_cr3(void);
+void set_cr3(unsigned long cr3);
+unsigned long get_cr4(void);
+void set_cr4(unsigned long cr4);
 
