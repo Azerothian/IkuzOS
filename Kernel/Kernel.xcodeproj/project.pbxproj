@@ -18,6 +18,7 @@
 		F238111B11B4843C00324A5A /* link.ld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.ld; sourceTree = "<group>"; };
 		F238111C11B4843C00324A5A /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
 		F238111E11B4843C00324A5A /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		F23811C311B4C02100324A5A /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
 		F28B31EE11B34EC50064A9DC /* ata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ata.c; sourceTree = "<group>"; };
 		F28B31EF11B34EC50064A9DC /* ata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ata.h; sourceTree = "<group>"; };
 		F28B31F111B34EC50064A9DC /* fat_12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fat_12.c; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		F238111211B4843C00324A5A /* x86 */ = {
 			isa = PBXGroup;
 			children = (
+				F23811C211B4C01700324A5A /* x64 */,
 				F238111311B4843C00324A5A /* asm.c */,
 				F238111411B4843C00324A5A /* asm.h */,
 				F238111511B4843C00324A5A /* boot.asm */,
@@ -89,6 +91,14 @@
 				F238111E11B4843C00324A5A /* types.h */,
 			);
 			path = x32;
+			sourceTree = "<group>";
+		};
+		F23811C211B4C01700324A5A /* x64 */ = {
+			isa = PBXGroup;
+			children = (
+				F23811C311B4C02100324A5A /* types.h */,
+			);
+			path = x64;
 			sourceTree = "<group>";
 		};
 		F28B31D811B34EC50064A9DC /* arch */ = {

@@ -4,7 +4,6 @@
 		activeBuildConfigurationName = Debug;
 		activeTarget = D28A88AD04BDD90700651E21 /* Kernel */;
 		addToTargets = (
-			D28A88AD04BDD90700651E21 /* Kernel */,
 		);
 		codeSenseManager = F28B321E11B34EC50064A9DC /* Code sense */;
 		perUserDictionary = {
@@ -92,8 +91,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 297042919;
-			PBXWorkspaceStateSaveDate = 297042919;
+			PBXPerProjectTemplateStateSaveDate = 297057894;
+			PBXWorkspaceStateSaveDate = 297057894;
 		};
 		perUserProjectItems = {
 			F23810EF11B480A600324A5A = F23810EF11B480A600324A5A /* PBXTextBookmark */;
@@ -110,10 +109,62 @@
 			F23810FB11B480A600324A5A = F23810FB11B480A600324A5A /* PBXTextBookmark */;
 			F23810FD11B480A600324A5A = F23810FD11B480A600324A5A /* PBXTextBookmark */;
 			F238110011B480F400324A5A = F238110011B480F400324A5A /* PBXTextBookmark */;
-			F238110111B480F400324A5A = F238110111B480F400324A5A /* PBXTextBookmark */;
 			F238110311B480F400324A5A = F238110311B480F400324A5A /* PBXTextBookmark */;
-			F238110411B480F400324A5A = F238110411B480F400324A5A /* PBXTextBookmark */;
-			F238110B11B483F400324A5A /* PBXTextBookmark */ = F238110B11B483F400324A5A /* PBXTextBookmark */;
+			F238115C11B48C9100324A5A = F238115C11B48C9100324A5A /* PBXTextBookmark */;
+			F238115D11B48C9100324A5A = F238115D11B48C9100324A5A /* PBXTextBookmark */;
+			F238115E11B48C9100324A5A = F238115E11B48C9100324A5A /* PBXTextBookmark */;
+			F238115F11B48C9100324A5A = F238115F11B48C9100324A5A /* PBXTextBookmark */;
+			F238116011B48C9100324A5A = F238116011B48C9100324A5A /* PBXTextBookmark */;
+			F238116111B48C9100324A5A = F238116111B48C9100324A5A /* PBXTextBookmark */;
+			F238116311B48C9100324A5A = F238116311B48C9100324A5A /* PBXTextBookmark */;
+			F238116511B48C9100324A5A = F238116511B48C9100324A5A /* PBXTextBookmark */;
+			F238116711B48C9100324A5A = F238116711B48C9100324A5A /* PBXTextBookmark */;
+			F238116911B48C9100324A5A = F238116911B48C9100324A5A /* PBXTextBookmark */;
+			F238116B11B48C9100324A5A = F238116B11B48C9100324A5A /* PBXTextBookmark */;
+			F238116D11B48C9100324A5A = F238116D11B48C9100324A5A /* PBXTextBookmark */;
+			F238116F11B48C9100324A5A = F238116F11B48C9100324A5A /* PBXTextBookmark */;
+			F238117011B48C9100324A5A = F238117011B48C9100324A5A /* PBXTextBookmark */;
+			F238117111B48C9100324A5A = F238117111B48C9100324A5A /* PBXTextBookmark */;
+			F238117211B48C9100324A5A = F238117211B48C9100324A5A /* PBXTextBookmark */;
+			F238117311B48C9100324A5A = F238117311B48C9100324A5A /* PBXTextBookmark */;
+			F238117411B48C9100324A5A = F238117411B48C9100324A5A /* PBXTextBookmark */;
+			F238117511B48C9100324A5A = F238117511B48C9100324A5A /* PBXTextBookmark */;
+			F238117611B48C9100324A5A = F238117611B48C9100324A5A /* PBXTextBookmark */;
+			F238117711B48C9100324A5A = F238117711B48C9100324A5A /* PBXTextBookmark */;
+			F238117811B48C9100324A5A = F238117811B48C9100324A5A /* PBXTextBookmark */;
+			F238117A11B48C9100324A5A = F238117A11B48C9100324A5A /* PBXTextBookmark */;
+			F238117C11B48C9100324A5A = F238117C11B48C9100324A5A /* PBXTextBookmark */;
+			F238117E11B48C9100324A5A = F238117E11B48C9100324A5A /* PBXTextBookmark */;
+			F238118011B48C9100324A5A = F238118011B48C9100324A5A /* PBXTextBookmark */;
+			F238118211B48C9100324A5A = F238118211B48C9100324A5A /* PBXTextBookmark */;
+			F238118411B48C9100324A5A = F238118411B48C9100324A5A /* PBXTextBookmark */;
+			F238118B11B4BE7200324A5A /* PBXTextBookmark */ = F238118B11B4BE7200324A5A /* PBXTextBookmark */;
+			F238119011B4BFD600324A5A /* PBXTextBookmark */ = F238119011B4BFD600324A5A /* PBXTextBookmark */;
+			F238119111B4BFD600324A5A /* PBXTextBookmark */ = F238119111B4BFD600324A5A /* PBXTextBookmark */;
+			F238119311B4BFD600324A5A /* PBXTextBookmark */ = F238119311B4BFD600324A5A /* PBXTextBookmark */;
+			F238119511B4BFD600324A5A /* PBXTextBookmark */ = F238119511B4BFD600324A5A /* PBXTextBookmark */;
+			F238119711B4BFD600324A5A /* PBXTextBookmark */ = F238119711B4BFD600324A5A /* PBXTextBookmark */;
+			F238119911B4BFD600324A5A /* PBXTextBookmark */ = F238119911B4BFD600324A5A /* PBXTextBookmark */;
+			F238119B11B4BFD600324A5A /* PBXTextBookmark */ = F238119B11B4BFD600324A5A /* PBXTextBookmark */;
+			F238119D11B4BFD600324A5A /* PBXTextBookmark */ = F238119D11B4BFD600324A5A /* PBXTextBookmark */;
+			F238119F11B4BFD600324A5A /* PBXTextBookmark */ = F238119F11B4BFD600324A5A /* PBXTextBookmark */;
+			F23811A111B4BFD600324A5A /* PBXTextBookmark */ = F23811A111B4BFD600324A5A /* PBXTextBookmark */;
+			F23811A311B4BFD600324A5A /* PBXTextBookmark */ = F23811A311B4BFD600324A5A /* PBXTextBookmark */;
+			F23811A511B4BFD600324A5A /* PBXTextBookmark */ = F23811A511B4BFD600324A5A /* PBXTextBookmark */;
+			F23811A711B4BFD600324A5A /* PBXTextBookmark */ = F23811A711B4BFD600324A5A /* PBXTextBookmark */;
+			F23811A911B4BFD600324A5A /* PBXTextBookmark */ = F23811A911B4BFD600324A5A /* PBXTextBookmark */;
+			F23811AA11B4BFD600324A5A /* PBXTextBookmark */ = F23811AA11B4BFD600324A5A /* PBXTextBookmark */;
+			F23811AC11B4BFD600324A5A /* PBXTextBookmark */ = F23811AC11B4BFD600324A5A /* PBXTextBookmark */;
+			F23811AE11B4BFD600324A5A /* PBXTextBookmark */ = F23811AE11B4BFD600324A5A /* PBXTextBookmark */;
+			F23811B011B4BFD600324A5A /* PBXTextBookmark */ = F23811B011B4BFD600324A5A /* PBXTextBookmark */;
+			F23811B211B4BFD600324A5A /* PBXTextBookmark */ = F23811B211B4BFD600324A5A /* PBXTextBookmark */;
+			F23811B411B4BFD600324A5A /* PBXTextBookmark */ = F23811B411B4BFD600324A5A /* PBXTextBookmark */;
+			F23811B611B4BFD600324A5A /* PBXTextBookmark */ = F23811B611B4BFD600324A5A /* PBXTextBookmark */;
+			F23811B811B4BFD600324A5A /* PBXTextBookmark */ = F23811B811B4BFD600324A5A /* PBXTextBookmark */;
+			F23811BA11B4BFD600324A5A /* PBXTextBookmark */ = F23811BA11B4BFD600324A5A /* PBXTextBookmark */;
+			F23811BC11B4BFD600324A5A /* PBXTextBookmark */ = F23811BC11B4BFD600324A5A /* PBXTextBookmark */;
+			F23811BE11B4BFD600324A5A /* PBXTextBookmark */ = F23811BE11B4BFD600324A5A /* PBXTextBookmark */;
+			F23811C011B4BFD600324A5A /* PBXTextBookmark */ = F23811C011B4BFD600324A5A /* PBXTextBookmark */;
 		};
 		sourceControlManager = F28B321D11B34EC50064A9DC /* Source Control */;
 		userBuildSettings = {
@@ -129,12 +180,6 @@
 		name = cpu.c;
 		path = /Development/IkuzOS/Kernel/arch/i386/cpu.c;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 1218}}";
-			sepNavSelRange = "{607, 0}";
-			sepNavVisRange = "{0, 1256}";
-			sepNavWindowFrame = "{{145, 112}, {1038, 664}}";
-		};
 	};
 	F238108411B4647D00324A5A /* cpu.h */ = {
 		isa = PBXFileReference;
@@ -143,11 +188,6 @@
 		name = cpu.h;
 		path = /Development/IkuzOS/Kernel/arch/i386/cpu.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 1946}}";
-			sepNavSelRange = "{2002, 0}";
-			sepNavVisRange = "{1704, 1004}";
-		};
 	};
 	F23810C511B47DD900324A5A /* ioport.h */ = {
 		isa = PBXFileReference;
@@ -156,11 +196,6 @@
 		name = ioport.h;
 		path = /Development/IkuzOS/Kernel/arch/i386/ioport.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 138}";
-		};
 	};
 	F23810C611B47DD900324A5A /* ioport.c */ = {
 		isa = PBXFileReference;
@@ -169,11 +204,6 @@
 		name = ioport.c;
 		path = /Development/IkuzOS/Kernel/arch/i386/ioport.c;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 159}";
-		};
 	};
 	F23810DB11B47E6700324A5A /* types.h */ = {
 		isa = PBXFileReference;
@@ -182,11 +212,6 @@
 		name = types.h;
 		path = /Development/IkuzOS/Kernel/arch/i386/x32/types.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 0}";
-		};
 	};
 	F23810DC11B47EF800324A5A /* types.h */ = {
 		isa = PBXFileReference;
@@ -195,12 +220,6 @@
 		name = types.h;
 		path = /Development/IkuzOS/Kernel/arch/i386/types.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
-			sepNavSelRange = "{208, 0}";
-			sepNavVisRange = "{0, 257}";
-			sepNavWindowFrame = "{{38, 338}, {1038, 664}}";
-		};
 	};
 	F23810EA11B47FD800324A5A /* types.h */ = {
 		isa = PBXFileReference;
@@ -356,20 +375,6 @@
 		vrLen = 257;
 		vrLoc = 0;
 	};
-	F238110111B480F400324A5A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F238110211B480F400324A5A /* config.h */;
-		rLen = 0;
-		rLoc = 2147483647;
-		rType = 0;
-	};
-	F238110211B480F400324A5A /* config.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = config.h;
-		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/config/template/config/config.h";
-		sourceTree = "<absolute>";
-	};
 	F238110311B480F400324A5A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F23810DC11B47EF800324A5A /* types.h */;
@@ -380,29 +385,30 @@
 		vrLen = 257;
 		vrLoc = 0;
 	};
-	F238110411B480F400324A5A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F238110511B480F400324A5A /* config.h */;
-		name = "config.h: 5";
-		rLen = 1;
-		rLoc = 201;
-		rType = 0;
-		vrLen = 1685;
-		vrLoc = 0;
-	};
 	F238110511B480F400324A5A /* config.h */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.c.h;
 		name = config.h;
 		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/config/template/config/config.h";
 		sourceTree = "<absolute>";
+	};
+	F238111C11B4843C00324A5A /* types.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 462}}";
-			sepNavSelRange = "{391, 0}";
-			sepNavVisRange = "{0, 1552}";
+			sepNavIntBoundsRect = "{{0, 0}, {848, 400}}";
+			sepNavSelRange = "{236, 0}";
+			sepNavVisRange = "{0, 283}";
+			sepNavWindowFrame = "{{291, 107}, {1038, 664}}";
 		};
 	};
-	F238110B11B483F400324A5A /* PBXTextBookmark */ = {
+	F238111E11B4843C00324A5A /* types.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 400}}";
+			sepNavSelRange = "{110, 0}";
+			sepNavVisRange = "{0, 525}";
+			sepNavWindowFrame = "{{314, 86}, {1038, 664}}";
+		};
+	};
+	F238115C11B48C9100324A5A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F238110511B480F400324A5A /* config.h */;
 		name = "config.h: 10";
@@ -412,6 +418,793 @@
 		vrLen = 1552;
 		vrLoc = 0;
 	};
+	F238115D11B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B320E11B34EC50064A9DC /* Makefile */;
+		name = "Makefile: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 152;
+	};
+	F238115E11B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238111C11B4843C00324A5A /* types.h */;
+		name = "types.h: 13";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 0;
+	};
+	F238115F11B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B320C11B34EC50064A9DC /* main.c */;
+		name = "main.c: 11";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	F238116011B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238111E11B4843C00324A5A /* types.h */;
+		name = "types.h: 7";
+		rLen = 0;
+		rLoc = 110;
+		rType = 0;
+		vrLen = 525;
+		vrLoc = 0;
+	};
+	F238116111B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238116211B48C9100324A5A /* io_space.cc */;
+		name = "io_space.cc: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 7396;
+	};
+	F238116211B48C9100324A5A /* io_space.cc */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = io_space.cc;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/glue/v4-x86/io_space.cc";
+		sourceTree = "<absolute>";
+	};
+	F238116311B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238116411B48C9100324A5A /* syscalls.h */;
+		name = "syscalls.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 0;
+	};
+	F238116411B48C9100324A5A /* syscalls.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = syscalls.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/glue/v4-x86/syscalls.h";
+		sourceTree = "<absolute>";
+	};
+	F238116511B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238116611B48C9100324A5A /* bootinfo.h */;
+		name = "bootinfo.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 1867;
+	};
+	F238116611B48C9100324A5A /* bootinfo.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = bootinfo.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/platform/efi/bootinfo.h";
+		sourceTree = "<absolute>";
+	};
+	F238116711B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238116811B48C9100324A5A /* processor.cc */;
+		name = "processor.cc: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 2323;
+	};
+	F238116811B48C9100324A5A /* processor.cc */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = processor.cc;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/api/v4/processor.cc";
+		sourceTree = "<absolute>";
+	};
+	F238116911B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238116A11B48C9100324A5A /* ia32-syscall-init.cc */;
+		name = "ia32-syscall-init.cc: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 591;
+		vrLoc = 2546;
+	};
+	F238116A11B48C9100324A5A /* ia32-syscall-init.cc */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = "ia32-syscall-init.cc";
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/lib/l4/ia32-syscall-init.cc";
+		sourceTree = "<absolute>";
+	};
+	F238116B11B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238116C11B48C9100324A5A /* amd64-syscalls.c */;
+		name = "amd64-syscalls.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1030;
+		vrLoc = 2055;
+	};
+	F238116C11B48C9100324A5A /* amd64-syscalls.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = "amd64-syscalls.c";
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/lib/l4/amd64-syscalls.c";
+		sourceTree = "<absolute>";
+	};
+	F238116D11B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238116E11B48C9100324A5A /* print.cc */;
+		rLen = 0;
+		rLoc = 2147483647;
+		rType = 0;
+	};
+	F238116E11B48C9100324A5A /* print.cc */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = print.cc;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/lib/io/print.cc";
+		sourceTree = "<absolute>";
+	};
+	F238116F11B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238110511B480F400324A5A /* config.h */;
+		name = "config.h: 10";
+		rLen = 0;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 1552;
+		vrLoc = 0;
+	};
+	F238117011B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B320C11B34EC50064A9DC /* main.c */;
+		name = "main.c: 9";
+		rLen = 0;
+		rLoc = 188;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	F238117111B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238111C11B4843C00324A5A /* types.h */;
+		name = "types.h: 15";
+		rLen = 0;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 309;
+		vrLoc = 0;
+	};
+	F238117211B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238111E11B4843C00324A5A /* types.h */;
+		name = "types.h: 1";
+		rLen = 0;
+		rLoc = 525;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	F238117311B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238111C11B4843C00324A5A /* types.h */;
+		name = "types.h: 15";
+		rLen = 0;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 309;
+		vrLoc = 0;
+	};
+	F238117411B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B320E11B34EC50064A9DC /* Makefile */;
+		name = "Makefile: 20";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 587;
+		vrLoc = 152;
+	};
+	F238117511B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238111C11B4843C00324A5A /* types.h */;
+		name = "types.h: 13";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 0;
+	};
+	F238117611B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B320C11B34EC50064A9DC /* main.c */;
+		name = "main.c: 11";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 441;
+		vrLoc = 0;
+	};
+	F238117711B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238111E11B4843C00324A5A /* types.h */;
+		name = "types.h: 7";
+		rLen = 0;
+		rLoc = 110;
+		rType = 0;
+		vrLen = 525;
+		vrLoc = 0;
+	};
+	F238117811B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238117911B48C9100324A5A /* io_space.cc */;
+		name = "io_space.cc: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 7396;
+	};
+	F238117911B48C9100324A5A /* io_space.cc */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = io_space.cc;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/glue/v4-x86/io_space.cc";
+		sourceTree = "<absolute>";
+	};
+	F238117A11B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238117B11B48C9100324A5A /* syscalls.h */;
+		name = "syscalls.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 0;
+	};
+	F238117B11B48C9100324A5A /* syscalls.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = syscalls.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/glue/v4-x86/syscalls.h";
+		sourceTree = "<absolute>";
+	};
+	F238117C11B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238117D11B48C9100324A5A /* bootinfo.h */;
+		name = "bootinfo.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 1867;
+	};
+	F238117D11B48C9100324A5A /* bootinfo.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = bootinfo.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/platform/efi/bootinfo.h";
+		sourceTree = "<absolute>";
+	};
+	F238117E11B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238117F11B48C9100324A5A /* processor.cc */;
+		name = "processor.cc: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 835;
+		vrLoc = 2323;
+	};
+	F238117F11B48C9100324A5A /* processor.cc */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = processor.cc;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/api/v4/processor.cc";
+		sourceTree = "<absolute>";
+	};
+	F238118011B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238118111B48C9100324A5A /* ia32-syscall-init.cc */;
+		name = "ia32-syscall-init.cc: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 591;
+		vrLoc = 2546;
+	};
+	F238118111B48C9100324A5A /* ia32-syscall-init.cc */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = "ia32-syscall-init.cc";
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/lib/l4/ia32-syscall-init.cc";
+		sourceTree = "<absolute>";
+	};
+	F238118211B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238118311B48C9100324A5A /* amd64-syscalls.c */;
+		name = "amd64-syscalls.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1030;
+		vrLoc = 2055;
+	};
+	F238118311B48C9100324A5A /* amd64-syscalls.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = "amd64-syscalls.c";
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/lib/l4/amd64-syscalls.c";
+		sourceTree = "<absolute>";
+	};
+	F238118411B48C9100324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238118511B48C9100324A5A /* print.cc */;
+		name = "print.cc: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 560;
+		vrLoc = 4806;
+	};
+	F238118511B48C9100324A5A /* print.cc */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = print.cc;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/lib/io/print.cc";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 8442}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{4806, 555}";
+		};
+	};
+	F238118B11B4BE7200324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238118511B48C9100324A5A /* print.cc */;
+		name = "print.cc: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 555;
+		vrLoc = 4806;
+	};
+	F238119011B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238118511B48C9100324A5A /* print.cc */;
+		name = "print.cc: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 555;
+		vrLoc = 4806;
+	};
+	F238119111B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238119211B4BFD600324A5A /* arch.h */;
+		name = "arch.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 614;
+		vrLoc = 10836;
+	};
+	F238119211B4BFD600324A5A /* arch.h */ = {
+		isa = PBXFileReference;
+		name = arch.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/include/l4/ia32/arch.h";
+		sourceTree = "<absolute>";
+	};
+	F238119311B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238119411B4BFD600324A5A /* arch.h */;
+		name = "arch.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1394;
+		vrLoc = 476;
+	};
+	F238119411B4BFD600324A5A /* arch.h */ = {
+		isa = PBXFileReference;
+		name = arch.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/include/l4/arch.h";
+		sourceTree = "<absolute>";
+	};
+	F238119511B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238119611B4BFD600324A5A /* syscalls.h */;
+		name = "syscalls.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 931;
+		vrLoc = 3005;
+	};
+	F238119611B4BFD600324A5A /* syscalls.h */ = {
+		isa = PBXFileReference;
+		name = syscalls.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/include/l4/ia32/syscalls.h";
+		sourceTree = "<absolute>";
+	};
+	F238119711B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238119811B4BFD600324A5A /* vregs.h */;
+		name = "vregs.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 2368;
+	};
+	F238119811B4BFD600324A5A /* vregs.h */ = {
+		isa = PBXFileReference;
+		name = vregs.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/include/l4/ia32/vregs.h";
+		sourceTree = "<absolute>";
+	};
+	F238119911B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238119A11B4BFD600324A5A /* apic.h */;
+		name = "apic.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 433;
+		vrLoc = 3103;
+	};
+	F238119A11B4BFD600324A5A /* apic.h */ = {
+		isa = PBXFileReference;
+		name = apic.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/apic.h";
+		sourceTree = "<absolute>";
+	};
+	F238119B11B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238119C11B4BFD600324A5A /* asm.h */;
+		name = "asm.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 1153;
+	};
+	F238119C11B4BFD600324A5A /* asm.h */ = {
+		isa = PBXFileReference;
+		name = asm.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/asm.h";
+		sourceTree = "<absolute>";
+	};
+	F238119D11B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238119E11B4BFD600324A5A /* atomic.h */;
+		name = "atomic.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 621;
+		vrLoc = 762;
+	};
+	F238119E11B4BFD600324A5A /* atomic.h */ = {
+		isa = PBXFileReference;
+		name = atomic.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/atomic.h";
+		sourceTree = "<absolute>";
+	};
+	F238119F11B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811A011B4BFD600324A5A /* cpu.h */;
+		name = "cpu.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 2485;
+	};
+	F23811A011B4BFD600324A5A /* cpu.h */ = {
+		isa = PBXFileReference;
+		name = cpu.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/x32/cpu.h";
+		sourceTree = "<absolute>";
+	};
+	F23811A111B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811A211B4BFD600324A5A /* debugregs.h */;
+		name = "debugregs.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 729;
+		vrLoc = 1514;
+	};
+	F23811A211B4BFD600324A5A /* debugregs.h */ = {
+		isa = PBXFileReference;
+		name = debugregs.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/x32/debugregs.h";
+		sourceTree = "<absolute>";
+	};
+	F23811A311B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811A411B4BFD600324A5A /* syscalls.h */;
+		name = "syscalls.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 488;
+		vrLoc = 1760;
+	};
+	F23811A411B4BFD600324A5A /* syscalls.h */ = {
+		isa = PBXFileReference;
+		name = syscalls.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/x32/syscalls.h";
+		sourceTree = "<absolute>";
+	};
+	F23811A511B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811A611B4BFD600324A5A /* types.h */;
+		name = "types.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 1484;
+	};
+	F23811A611B4BFD600324A5A /* types.h */ = {
+		isa = PBXFileReference;
+		name = types.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/x32/types.h";
+		sourceTree = "<absolute>";
+	};
+	F23811A711B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811A811B4BFD600324A5A /* types.h */;
+		rLen = 0;
+		rLoc = 2147483647;
+		rType = 0;
+	};
+	F23811A811B4BFD600324A5A /* types.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = types.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/x64/types.h";
+		sourceTree = "<absolute>";
+	};
+	F23811A911B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238118511B48C9100324A5A /* print.cc */;
+		name = "print.cc: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 555;
+		vrLoc = 4806;
+	};
+	F23811AA11B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811AB11B4BFD600324A5A /* arch.h */;
+		name = "arch.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 614;
+		vrLoc = 10836;
+	};
+	F23811AB11B4BFD600324A5A /* arch.h */ = {
+		isa = PBXFileReference;
+		name = arch.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/include/l4/ia32/arch.h";
+		sourceTree = "<absolute>";
+	};
+	F23811AC11B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811AD11B4BFD600324A5A /* arch.h */;
+		name = "arch.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1394;
+		vrLoc = 476;
+	};
+	F23811AD11B4BFD600324A5A /* arch.h */ = {
+		isa = PBXFileReference;
+		name = arch.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/include/l4/arch.h";
+		sourceTree = "<absolute>";
+	};
+	F23811AE11B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811AF11B4BFD600324A5A /* syscalls.h */;
+		name = "syscalls.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 931;
+		vrLoc = 3005;
+	};
+	F23811AF11B4BFD600324A5A /* syscalls.h */ = {
+		isa = PBXFileReference;
+		name = syscalls.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/include/l4/ia32/syscalls.h";
+		sourceTree = "<absolute>";
+	};
+	F23811B011B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811B111B4BFD600324A5A /* vregs.h */;
+		name = "vregs.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 2368;
+	};
+	F23811B111B4BFD600324A5A /* vregs.h */ = {
+		isa = PBXFileReference;
+		name = vregs.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/user/include/l4/ia32/vregs.h";
+		sourceTree = "<absolute>";
+	};
+	F23811B211B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811B311B4BFD600324A5A /* apic.h */;
+		name = "apic.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 433;
+		vrLoc = 3103;
+	};
+	F23811B311B4BFD600324A5A /* apic.h */ = {
+		isa = PBXFileReference;
+		name = apic.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/apic.h";
+		sourceTree = "<absolute>";
+	};
+	F23811B411B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811B511B4BFD600324A5A /* asm.h */;
+		name = "asm.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 1153;
+	};
+	F23811B511B4BFD600324A5A /* asm.h */ = {
+		isa = PBXFileReference;
+		name = asm.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/asm.h";
+		sourceTree = "<absolute>";
+	};
+	F23811B611B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811B711B4BFD600324A5A /* atomic.h */;
+		name = "atomic.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 621;
+		vrLoc = 762;
+	};
+	F23811B711B4BFD600324A5A /* atomic.h */ = {
+		isa = PBXFileReference;
+		name = atomic.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/atomic.h";
+		sourceTree = "<absolute>";
+	};
+	F23811B811B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811B911B4BFD600324A5A /* cpu.h */;
+		name = "cpu.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 2485;
+	};
+	F23811B911B4BFD600324A5A /* cpu.h */ = {
+		isa = PBXFileReference;
+		name = cpu.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/x32/cpu.h";
+		sourceTree = "<absolute>";
+	};
+	F23811BA11B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811BB11B4BFD600324A5A /* debugregs.h */;
+		name = "debugregs.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 729;
+		vrLoc = 1514;
+	};
+	F23811BB11B4BFD600324A5A /* debugregs.h */ = {
+		isa = PBXFileReference;
+		name = debugregs.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/x32/debugregs.h";
+		sourceTree = "<absolute>";
+	};
+	F23811BC11B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811BD11B4BFD600324A5A /* syscalls.h */;
+		name = "syscalls.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 488;
+		vrLoc = 1760;
+	};
+	F23811BD11B4BFD600324A5A /* syscalls.h */ = {
+		isa = PBXFileReference;
+		name = syscalls.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/x32/syscalls.h";
+		sourceTree = "<absolute>";
+	};
+	F23811BE11B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811BF11B4BFD600324A5A /* types.h */;
+		name = "types.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 1484;
+	};
+	F23811BF11B4BFD600324A5A /* types.h */ = {
+		isa = PBXFileReference;
+		name = types.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/x32/types.h";
+		sourceTree = "<absolute>";
+	};
+	F23811C011B4BFD600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23811C111B4BFD600324A5A /* types.h */;
+		name = "types.h: 34";
+		rLen = 1312;
+		rLoc = 1765;
+		rType = 0;
+		vrLen = 851;
+		vrLoc = 1282;
+	};
+	F23811C111B4BFD600324A5A /* types.h */ = {
+		isa = PBXFileReference;
+		name = types.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/x64/types.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 1358}}";
+			sepNavSelRange = "{1765, 1312}";
+			sepNavVisRange = "{1282, 851}";
+		};
+	};
 	F28B31DA11B34EC50064A9DC /* boot.asm */ = {
 		isa = PBXFileReference;
 		fileEncoding = 4;
@@ -419,24 +1212,98 @@
 		name = boot.asm;
 		path = /Development/IkuzOS/Kernel/arch/i386/boot.asm;
 		sourceTree = "<absolute>";
+	};
+	F28B31EE11B34EC50064A9DC /* ata.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
+			sepNavIntBoundsRect = "{{0, 0}, {979, 1498}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 568}";
+			sepNavVisRange = "{2302, 1218}";
+			sepNavWindowFrame = "{{268, 128}, {1038, 664}}";
+		};
+	};
+	F28B31EF11B34EC50064A9DC /* ata.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 1708}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 881}";
+			sepNavWindowFrame = "{{245, 149}, {1038, 664}}";
+		};
+	};
+	F28B31F211B34EC50064A9DC /* fat_12.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 2632}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3240, 664}";
+			sepNavWindowFrame = "{{199, 191}, {1038, 664}}";
+		};
+	};
+	F28B31F311B34EC50064A9DC /* fat_32.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 203}";
+			sepNavWindowFrame = "{{222, 170}, {1038, 664}}";
+		};
+	};
+	F28B31F911B34EC50064A9DC /* types.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 658}}";
+			sepNavSelRange = "{162, 0}";
+			sepNavVisRange = "{0, 934}";
+			sepNavWindowFrame = "{{337, 65}, {1038, 664}}";
+		};
+	};
+	F28B320011B34EC50064A9DC /* pcspk.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 602}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{45, 740}";
+			sepNavWindowFrame = "{{176, 212}, {1038, 664}}";
+		};
+	};
+	F28B320111B34EC50064A9DC /* sti.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 175}";
+			sepNavWindowFrame = "{{153, 233}, {1038, 664}}";
+		};
+	};
+	F28B320511B34EC50064A9DC /* isnum.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 224}";
+			sepNavWindowFrame = "{{130, 254}, {1038, 664}}";
+		};
+	};
+	F28B320611B34EC50064A9DC /* stdlib.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 461}";
 			sepNavWindowFrame = "{{107, 275}, {1038, 664}}";
+		};
+	};
+	F28B320711B34EC50064A9DC /* stdlib.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 175}";
+			sepNavWindowFrame = "{{84, 296}, {1038, 664}}";
 		};
 	};
 	F28B320C11B34EC50064A9DC /* main.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
-			sepNavSelRange = "{216, 0}";
-			sepNavVisRange = "{0, 469}";
+			sepNavIntBoundsRect = "{{0, 0}, {848, 400}}";
+			sepNavSelRange = "{193, 0}";
+			sepNavVisRange = "{0, 441}";
 			sepNavWindowFrame = "{{337, 65}, {1038, 664}}";
 		};
 	};
 	F28B320D11B34EC50064A9DC /* main.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
+			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 104}";
 			sepNavWindowFrame = "{{314, 86}, {1038, 664}}";
@@ -445,9 +1312,17 @@
 	F28B320E11B34EC50064A9DC /* Makefile */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {979, 826}}";
-			sepNavSelRange = "{410, 0}";
-			sepNavVisRange = "{162, 753}";
-			sepNavWindowFrame = "{{71, 93}, {1038, 664}}";
+			sepNavSelRange = "{1078, 0}";
+			sepNavVisRange = "{447, 720}";
+			sepNavWindowFrame = "{{461, 253}, {1038, 664}}";
+		};
+	};
+	F28B321C11B34EC50064A9DC /* textmode.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 1764}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{942, 632}";
+			sepNavWindowFrame = "{{61, 317}, {1038, 664}}";
 		};
 	};
 	F28B321D11B34EC50064A9DC /* Source Control */ = {
@@ -468,11 +1343,6 @@
 		name = asm.h;
 		path = /Development/IkuzOS/Kernel/arch/i386/asm.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1553}";
-		};
 	};
 	F28B337211B3807D0064A9DC /* boot.h */ = {
 		isa = PBXFileReference;
@@ -481,12 +1351,6 @@
 		name = boot.h;
 		path = /Development/IkuzOS/Kernel/arch/i386/boot.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 171}";
-			sepNavWindowFrame = "{{484, 104}, {1038, 664}}";
-		};
 	};
 	F28B339911B383020064A9DC /* link.ld */ = {
 		isa = PBXFileReference;
@@ -495,10 +1359,5 @@
 		name = link.ld;
 		path = /Development/IkuzOS/Kernel/arch/i386/link.ld;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 411}";
-		};
 	};
 }
