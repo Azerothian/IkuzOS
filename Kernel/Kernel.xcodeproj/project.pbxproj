@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		F28B31DA11B34EC50064A9DC /* boot.asm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm.asm; path = boot.asm; sourceTree = "<group>"; };
+		F238111311B4843C00324A5A /* asm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asm.c; sourceTree = "<group>"; };
+		F238111411B4843C00324A5A /* asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asm.h; sourceTree = "<group>"; };
+		F238111511B4843C00324A5A /* boot.asm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm.asm; path = boot.asm; sourceTree = "<group>"; };
+		F238111611B4843C00324A5A /* boot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boot.h; sourceTree = "<group>"; };
+		F238111711B4843C00324A5A /* cpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpu.c; sourceTree = "<group>"; };
+		F238111811B4843C00324A5A /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
+		F238111911B4843C00324A5A /* ioport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioport.c; sourceTree = "<group>"; };
+		F238111A11B4843C00324A5A /* ioport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioport.h; sourceTree = "<group>"; };
+		F238111B11B4843C00324A5A /* link.ld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.ld; sourceTree = "<group>"; };
+		F238111C11B4843C00324A5A /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		F238111E11B4843C00324A5A /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
 		F28B31EE11B34EC50064A9DC /* ata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ata.c; sourceTree = "<group>"; };
 		F28B31EF11B34EC50064A9DC /* ata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ata.h; sourceTree = "<group>"; };
 		F28B31F111B34EC50064A9DC /* fat_12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fat_12.c; sourceTree = "<group>"; };
@@ -35,10 +45,6 @@
 		F28B320D11B34EC50064A9DC /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		F28B320E11B34EC50064A9DC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		F28B321C11B34EC50064A9DC /* textmode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = textmode.c; sourceTree = "<group>"; };
-		F28B323D11B35D830064A9DC /* asm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asm.c; sourceTree = "<group>"; };
-		F28B323E11B35D830064A9DC /* asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asm.h; sourceTree = "<group>"; };
-		F28B337211B3807D0064A9DC /* boot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boot.h; sourceTree = "<group>"; };
-		F28B339911B383020064A9DC /* link.ld */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.ld; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -59,24 +65,38 @@
 			name = Kernel;
 			sourceTree = "<group>";
 		};
+		F238111211B4843C00324A5A /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				F238111311B4843C00324A5A /* asm.c */,
+				F238111411B4843C00324A5A /* asm.h */,
+				F238111511B4843C00324A5A /* boot.asm */,
+				F238111611B4843C00324A5A /* boot.h */,
+				F238111711B4843C00324A5A /* cpu.c */,
+				F238111811B4843C00324A5A /* cpu.h */,
+				F238111911B4843C00324A5A /* ioport.c */,
+				F238111A11B4843C00324A5A /* ioport.h */,
+				F238111B11B4843C00324A5A /* link.ld */,
+				F238111C11B4843C00324A5A /* types.h */,
+				F238111D11B4843C00324A5A /* x32 */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
+		F238111D11B4843C00324A5A /* x32 */ = {
+			isa = PBXGroup;
+			children = (
+				F238111E11B4843C00324A5A /* types.h */,
+			);
+			path = x32;
+			sourceTree = "<group>";
+		};
 		F28B31D811B34EC50064A9DC /* arch */ = {
 			isa = PBXGroup;
 			children = (
-				F28B31D911B34EC50064A9DC /* i386 */,
+				F238111211B4843C00324A5A /* x86 */,
 			);
 			path = arch;
-			sourceTree = "<group>";
-		};
-		F28B31D911B34EC50064A9DC /* i386 */ = {
-			isa = PBXGroup;
-			children = (
-				F28B339911B383020064A9DC /* link.ld */,
-				F28B323D11B35D830064A9DC /* asm.c */,
-				F28B323E11B35D830064A9DC /* asm.h */,
-				F28B31DA11B34EC50064A9DC /* boot.asm */,
-				F28B337211B3807D0064A9DC /* boot.h */,
-			);
-			path = i386;
 			sourceTree = "<group>";
 		};
 		F28B31EC11B34EC50064A9DC /* drivers */ = {

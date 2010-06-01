@@ -4,8 +4,12 @@
  *
  * Created on May 26, 2010, 9:46 PM
  */
-#ifndef __K_TYPES_H
-    #define __K_TYPES_H
+#ifndef _K_TYPES_H
+    #define _K_TYPES_H
+
+	#if (ARCH==X86)
+		#include "../arch/x86/types.h"
+	#endif
 
     #ifndef __SIZE_T
         #define size_t unsigned int

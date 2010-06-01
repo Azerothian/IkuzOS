@@ -9,21 +9,22 @@ NASM=nasm
 endif
 
 # Architecture to Build For
-ARCH=i386
+ARCH=x86
+SUBARCH=x32
 
 # Include Directories
 INCLUDES=includes
 
 # Compilation Flags
 CFLAGS=-Wall -Wextra -nostdlib -nostartfiles -nodefaultlibs -fno-omit-frame-pointer -fno-builtin -ffreestanding
-CDEBUG=-D__DEBUG__
+CDEBUG=-D__DEBUG__ -DARCH=$(ARCH) -DSUBARCH=$(SUBARCH)
 NASMFLAGS=-f elf
 
 # Kernel Loader
 KLDROBJ=arch/$(ARCH)/boot.o
 
-#Kernel x86 Code
-x86OBJ=arch/i386/cpu.o
+#Kernel CPU Specific
+KCPUOBJ=arch/$(ARCH)/$(SUBARCH)/cpu.o
 
 # Kernel IO
 IOOBJ=io/cli.o io/sti.o io/hlt.o io/outb.o io/inb.o io/insl.o io/pcspk.o

@@ -8,6 +8,26 @@
  */
 
 /*
+ * A segment descriptor is an entry in the GDT or an LDT.
+ */
+struct x86_segment_descriptor {
+	unsigned long words[2];
+};
+
+/*
+ * An interrupt gate is an entry in the IDT.
+ */
+struct x86_interrupt_gate {
+	unsigned short offset_low          ;
+	unsigned short segment_selector    ;
+	unsigned int reserved        : 5;
+	unsigned int signature       : 8;
+	unsigned int dpl             : 2;
+	unsigned int present         : 1;
+	unsigned short offset_high         ;
+};
+
+/*
 * CPUID information.
 */
 struct x86_cpuid_info {
@@ -87,13 +107,32 @@ struct x86_cpuid_info {
 	} feature_info_ecx;
 };
 
+#define PRIV_KERN 0
+#define PRIV_USER 3
 
+#define SEL_GDT 0
+#define SEL_LDT (1 << 2)
+
+#define SELECTOR(index, table, rpl) \
+((((index) & 0x1FFF) << 3) | (table) | ((rpl) & 3))
+
+/* selectors for kernel code/data */
+#define KERN_CS SELECTOR(1, SEL_GDT, 0)
+#define KERN_DS SELECTOR(2, SEL_GDT, 0)
+
+/* Get/Set EFLAGS */
 unsigned long get_eflags(void);
 void set_eflags(unsigned long eflags);
+
+/* Get/Set CR0 */
 unsigned long get_cr0(void);
 void set_cr0(unsigned long cr0);
+
+/* Get/Set CR3 */
 unsigned long get_cr3(void);
 void set_cr3(unsigned long cr3);
+
+/* Get/Set CR4 */
 unsigned long get_cr4(void);
 void set_cr4(unsigned long cr4);
 

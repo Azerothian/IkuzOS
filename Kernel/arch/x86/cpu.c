@@ -9,6 +9,15 @@
 
 #include "cpu.h"
 
+/* segment descriptor constants (upper word) */
+#define SEG_PAGE_GRANULARITY (1 << 23)
+#define SEG_PRESENT          (1 << 15)
+#define SEG_CODE_OR_DATA     (1 << 12) /* system bit = 1 */
+#define SEG_DB               (1 << 22)
+#define SEG_TYPE_CODE        (0xA << 8) /* code, !conforming, readable, !accessed */
+#define SEG_TYPE_DATA        (0x2 << 8) /* data, expand-up, writable, !accessed */
+#define SEG_TYPE_TSS         (0x9 << 8) /* 32 bit, !busy */
+
 /* Get the current value of the eflags register */
 __inline__ unsigned long get_eflags(void)
 {
@@ -63,6 +72,18 @@ __inline__ unsigned long get_cr4(void)
 __inline__ void set_cr4(unsigned long cr4)
 {
 	asm volatile("movl %0, %%cr4" :: "a" (cr4));
+}
+
+/* Init the Interrupt Gate */
+void x86_init_int_gate(struct x86_interrupt_gate *gate, unsigned long addr, int dpl)
+{
+	gate->offset_low = addr & 0xffff;
+	gate->segment_selector = KERN_CS;
+	gate->reserved = 0;
+	gate->signature = 0x70;  /* == 01110000b */
+	gate->dpl = dpl;
+	gate->present = 1;
+	gate->offset_high = addr >> 16;
 }
 
 

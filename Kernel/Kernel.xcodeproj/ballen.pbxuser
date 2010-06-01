@@ -8,6 +8,34 @@
 		);
 		codeSenseManager = F28B321E11B34EC50064A9DC /* Code sense */;
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					560,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					558,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -30,15 +58,27 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					684,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
 			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					301,
+					630,
 					60,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 				);
@@ -52,17 +92,28 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 296976163;
-			PBXWorkspaceStateSaveDate = 296976163;
+			PBXPerProjectTemplateStateSaveDate = 297042919;
+			PBXWorkspaceStateSaveDate = 297042919;
 		};
 		perUserProjectItems = {
-			F28B322D11B35CB40064A9DC = F28B322D11B35CB40064A9DC /* PBXTextBookmark */;
-			F28B322E11B35CB40064A9DC = F28B322E11B35CB40064A9DC /* PBXTextBookmark */;
-			F28B322F11B35CB40064A9DC = F28B322F11B35CB40064A9DC /* PBXBookmark */;
-			F28B323011B35CB40064A9DC = F28B323011B35CB40064A9DC /* PBXTextBookmark */;
-			F28B323111B35CB40064A9DC = F28B323111B35CB40064A9DC /* PBXTextBookmark */;
-			F28B323211B35CB40064A9DC = F28B323211B35CB40064A9DC /* PBXTextBookmark */;
-			F28B323911B35D010064A9DC = F28B323911B35D010064A9DC /* PBXTextBookmark */;
+			F23810EF11B480A600324A5A = F23810EF11B480A600324A5A /* PBXTextBookmark */;
+			F23810F111B480A600324A5A = F23810F111B480A600324A5A /* PBXTextBookmark */;
+			F23810F211B480A600324A5A = F23810F211B480A600324A5A /* PBXTextBookmark */;
+			F23810F311B480A600324A5A = F23810F311B480A600324A5A /* PBXTextBookmark */;
+			F23810F411B480A600324A5A = F23810F411B480A600324A5A /* PBXTextBookmark */;
+			F23810F511B480A600324A5A = F23810F511B480A600324A5A /* PBXTextBookmark */;
+			F23810F611B480A600324A5A = F23810F611B480A600324A5A /* PBXTextBookmark */;
+			F23810F711B480A600324A5A = F23810F711B480A600324A5A /* PBXTextBookmark */;
+			F23810F811B480A600324A5A = F23810F811B480A600324A5A /* PBXTextBookmark */;
+			F23810F911B480A600324A5A = F23810F911B480A600324A5A /* PBXTextBookmark */;
+			F23810FA11B480A600324A5A = F23810FA11B480A600324A5A /* PBXTextBookmark */;
+			F23810FB11B480A600324A5A = F23810FB11B480A600324A5A /* PBXTextBookmark */;
+			F23810FD11B480A600324A5A = F23810FD11B480A600324A5A /* PBXTextBookmark */;
+			F238110011B480F400324A5A = F238110011B480F400324A5A /* PBXTextBookmark */;
+			F238110111B480F400324A5A = F238110111B480F400324A5A /* PBXTextBookmark */;
+			F238110311B480F400324A5A = F238110311B480F400324A5A /* PBXTextBookmark */;
+			F238110411B480F400324A5A = F238110411B480F400324A5A /* PBXTextBookmark */;
+			F238110B11B483F400324A5A /* PBXTextBookmark */ = F238110B11B483F400324A5A /* PBXTextBookmark */;
 		};
 		sourceControlManager = F28B321D11B34EC50064A9DC /* Source Control */;
 		userBuildSettings = {
@@ -71,21 +122,309 @@
 	D28A88AD04BDD90700651E21 /* Kernel */ = {
 		activeExec = 0;
 	};
-	F28B31DA11B34EC50064A9DC /* boot.asm */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
-			sepNavSelRange = "{510, 0}";
-			sepNavVisRange = "{0, 568}";
-			sepNavWindowFrame = "{{107, 275}, {1038, 664}}";
-		};
-	};
-	F28B31DB11B34EC50064A9DC /* asm.c */ = {
+	F238108311B4647D00324A5A /* cpu.c */ = {
 		isa = PBXFileReference;
 		fileEncoding = 4;
 		lastKnownFileType = sourcecode.c.c;
-		name = asm.c;
-		path = /Development/IkuzOS/Kernel/asm.c;
+		name = cpu.c;
+		path = /Development/IkuzOS/Kernel/arch/i386/cpu.c;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 1218}}";
+			sepNavSelRange = "{607, 0}";
+			sepNavVisRange = "{0, 1256}";
+			sepNavWindowFrame = "{{145, 112}, {1038, 664}}";
+		};
+	};
+	F238108411B4647D00324A5A /* cpu.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = cpu.h;
+		path = /Development/IkuzOS/Kernel/arch/i386/cpu.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 1946}}";
+			sepNavSelRange = "{2002, 0}";
+			sepNavVisRange = "{1704, 1004}";
+		};
+	};
+	F23810C511B47DD900324A5A /* ioport.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ioport.h;
+		path = /Development/IkuzOS/Kernel/arch/i386/ioport.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 138}";
+		};
+	};
+	F23810C611B47DD900324A5A /* ioport.c */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.c;
+		name = ioport.c;
+		path = /Development/IkuzOS/Kernel/arch/i386/ioport.c;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 159}";
+		};
+	};
+	F23810DB11B47E6700324A5A /* types.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = types.h;
+		path = /Development/IkuzOS/Kernel/arch/i386/x32/types.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	F23810DC11B47EF800324A5A /* types.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = types.h;
+		path = /Development/IkuzOS/Kernel/arch/i386/types.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
+			sepNavSelRange = "{208, 0}";
+			sepNavVisRange = "{0, 257}";
+			sepNavWindowFrame = "{{38, 338}, {1038, 664}}";
+		};
+	};
+	F23810EA11B47FD800324A5A /* types.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = types.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/src/arch/x86/types.h";
+		sourceTree = "<absolute>";
+	};
+	F23810EF11B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23810F011B480A600324A5A /* x86.cc */;
+		name = "x86.cc: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1241;
+		vrLoc = 5384;
+	};
+	F23810F011B480A600324A5A /* x86.cc */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = x86.cc;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/kdb/arch/x86/x32/x86.cc";
+		sourceTree = "<absolute>";
+	};
+	F23810F111B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23810EA11B47FD800324A5A /* types.h */;
+		name = "types.h: 13";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 359;
+		vrLoc = 0;
+	};
+	F23810F211B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23810DB11B47E6700324A5A /* types.h */;
+		name = "types.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	F23810F311B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238108311B4647D00324A5A /* cpu.c */;
+		name = "cpu.c: 20";
+		rLen = 0;
+		rLoc = 607;
+		rType = 0;
+		vrLen = 1256;
+		vrLoc = 0;
+	};
+	F23810F411B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238108411B4647D00324A5A /* cpu.h */;
+		name = "cpu.h: 93";
+		rLen = 0;
+		rLoc = 2002;
+		rType = 0;
+		vrLen = 1004;
+		vrLoc = 1704;
+	};
+	F23810F511B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23810C511B47DD900324A5A /* ioport.h */;
+		name = "ioport.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 138;
+		vrLoc = 0;
+	};
+	F23810F611B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B337211B3807D0064A9DC /* boot.h */;
+		name = "boot.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 171;
+		vrLoc = 0;
+	};
+	F23810F711B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B31DA11B34EC50064A9DC /* boot.asm */;
+		name = "boot.asm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 0;
+	};
+	F23810F811B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B339911B383020064A9DC /* link.ld */;
+		name = "link.ld: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 411;
+		vrLoc = 0;
+	};
+	F23810F911B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23810C611B47DD900324A5A /* ioport.c */;
+		name = "ioport.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 159;
+		vrLoc = 0;
+	};
+	F23810FA11B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B320D11B34EC50064A9DC /* main.h */;
+		name = "main.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 104;
+		vrLoc = 0;
+	};
+	F23810FB11B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B323E11B35D830064A9DC /* asm.h */;
+		name = "asm.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1553;
+		vrLoc = 0;
+	};
+	F23810FD11B480A600324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F28B323E11B35D830064A9DC /* asm.h */;
+		name = "asm.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1553;
+		vrLoc = 0;
+	};
+	F238110011B480F400324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23810DC11B47EF800324A5A /* types.h */;
+		name = "types.h: 12";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	F238110111B480F400324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238110211B480F400324A5A /* config.h */;
+		rLen = 0;
+		rLoc = 2147483647;
+		rType = 0;
+	};
+	F238110211B480F400324A5A /* config.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = config.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/config/template/config/config.h";
+		sourceTree = "<absolute>";
+	};
+	F238110311B480F400324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F23810DC11B47EF800324A5A /* types.h */;
+		name = "types.h: 12";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	F238110411B480F400324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238110511B480F400324A5A /* config.h */;
+		name = "config.h: 5";
+		rLen = 1;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 1685;
+		vrLoc = 0;
+	};
+	F238110511B480F400324A5A /* config.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = config.h;
+		path = "/Users/ballen/Downloads/l4ka-pistachio-091452ae09d8/kernel/config/template/config/config.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 462}}";
+			sepNavSelRange = "{391, 0}";
+			sepNavVisRange = "{0, 1552}";
+		};
+	};
+	F238110B11B483F400324A5A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F238110511B480F400324A5A /* config.h */;
+		name = "config.h: 10";
+		rLen = 0;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 1552;
+		vrLoc = 0;
+	};
+	F28B31DA11B34EC50064A9DC /* boot.asm */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.asm.asm;
+		name = boot.asm;
+		path = /Development/IkuzOS/Kernel/arch/i386/boot.asm;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 568}";
+			sepNavWindowFrame = "{{107, 275}, {1038, 664}}";
+		};
 	};
 	F28B320C11B34EC50064A9DC /* main.c */ = {
 		uiCtxt = {
@@ -97,7 +436,7 @@
 	};
 	F28B320D11B34EC50064A9DC /* main.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 100}}";
+			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 104}";
 			sepNavWindowFrame = "{{314, 86}, {1038, 664}}";
@@ -105,10 +444,10 @@
 	};
 	F28B320E11B34EC50064A9DC /* Makefile */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {979, 770}}";
-			sepNavSelRange = "{962, 0}";
-			sepNavVisRange = "{249, 801}";
-			sepNavWindowFrame = "{{189, 199}, {1038, 664}}";
+			sepNavIntBoundsRect = "{{0, 0}, {979, 826}}";
+			sepNavSelRange = "{410, 0}";
+			sepNavVisRange = "{162, 753}";
+			sepNavWindowFrame = "{{71, 93}, {1038, 664}}";
 		};
 	};
 	F28B321D11B34EC50064A9DC /* Source Control */ = {
@@ -122,83 +461,44 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	F28B322D11B35CB40064A9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F28B320E11B34EC50064A9DC /* Makefile */;
-		name = "Makefile: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 160;
-		vrLoc = 0;
-	};
-	F28B322E11B35CB40064A9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F28B31DA11B34EC50064A9DC /* boot.asm */;
-		name = "boot.s: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 184;
-		vrLoc = 0;
-	};
-	F28B322F11B35CB40064A9DC /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = F28B31DB11B34EC50064A9DC /* asm.c */;
-	};
-	F28B323011B35CB40064A9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F28B320E11B34EC50064A9DC /* Makefile */;
-		name = "Makefile: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 160;
-		vrLoc = 0;
-	};
-	F28B323111B35CB40064A9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F28B31DA11B34EC50064A9DC /* boot.asm */;
-		name = "boot.s: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 184;
-		vrLoc = 0;
-	};
-	F28B323211B35CB40064A9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F28B31DB11B34EC50064A9DC /* asm.c */;
-		name = "asm.c: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 104;
-		vrLoc = 0;
-	};
-	F28B323911B35D010064A9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F28B31DB11B34EC50064A9DC /* asm.c */;
-		name = "asm.c: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 104;
-		vrLoc = 0;
-	};
 	F28B323E11B35D830064A9DC /* asm.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = asm.h;
+		path = /Development/IkuzOS/Kernel/arch/i386/asm.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 658}}";
+			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 102}";
+			sepNavVisRange = "{0, 1553}";
 		};
 	};
 	F28B337211B3807D0064A9DC /* boot.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = boot.h;
+		path = /Development/IkuzOS/Kernel/arch/i386/boot.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 154}}";
+			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 136}";
+			sepNavVisRange = "{0, 171}";
 			sepNavWindowFrame = "{{484, 104}, {1038, 664}}";
+		};
+	};
+	F28B339911B383020064A9DC /* link.ld */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text;
+		name = link.ld;
+		path = /Development/IkuzOS/Kernel/arch/i386/link.ld;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 632}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 411}";
 		};
 	};
 }
