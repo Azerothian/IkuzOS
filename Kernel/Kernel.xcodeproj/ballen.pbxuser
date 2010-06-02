@@ -458,7 +458,7 @@
 		fRef = F28B320C11B34EC50064A9DC /* main.c */;
 		name = "main.c: 11";
 		rLen = 0;
-		rLoc = 193;
+		rLoc = 23;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 0;
@@ -604,7 +604,7 @@
 		fRef = F28B320C11B34EC50064A9DC /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 188;
+		rLoc = 18;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 0;
@@ -664,7 +664,7 @@
 		fRef = F28B320C11B34EC50064A9DC /* main.c */;
 		name = "main.c: 11";
 		rLen = 0;
-		rLoc = 193;
+		rLoc = 23;
 		rType = 0;
 		vrLen = 441;
 		vrLoc = 0;
@@ -1323,25 +1323,25 @@
 	};
 	F28B320C11B34EC50064A9DC /* main.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 400}}";
-			sepNavSelRange = "{193, 0}";
-			sepNavVisRange = "{0, 441}";
+			sepNavIntBoundsRect = "{{0, 0}, {848, 602}}";
+			sepNavSelRange = "{108, 0}";
+			sepNavVisRange = "{0, 293}";
 			sepNavWindowFrame = "{{337, 65}, {1038, 664}}";
 		};
 	};
 	F28B320D11B34EC50064A9DC /* main.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 400}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 104}";
+			sepNavIntBoundsRect = "{{0, 0}, {848, 602}}";
+			sepNavSelRange = "{169, 0}";
+			sepNavVisRange = "{0, 293}";
 			sepNavWindowFrame = "{{314, 86}, {1038, 664}}";
 		};
 	};
 	F28B320E11B34EC50064A9DC /* Makefile */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {979, 826}}";
-			sepNavSelRange = "{1078, 0}";
-			sepNavVisRange = "{447, 720}";
+			sepNavSelRange = "{851, 0}";
+			sepNavVisRange = "{162, 809}";
 			sepNavWindowFrame = "{{461, 253}, {1038, 664}}";
 		};
 	};
@@ -1390,7 +1390,7 @@
 	};
 	F2BE449211B5F9E50027EA6B /* x86.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 602}}";
+			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
 			sepNavSelRange = "{320, 0}";
 			sepNavVisRange = "{0, 668}";
 			sepNavWindowFrame = "{{765, 281}, {1038, 664}}";
@@ -1398,26 +1398,33 @@
 	};
 	F2BE449D11B5FAD10027EA6B /* x86.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {848, 1204}}";
-			sepNavSelRange = "{129, 0}";
-			sepNavVisRange = "{0, 847}";
+			sepNavIntBoundsRect = "{{0, 0}, {848, 1372}}";
+			sepNavSelRange = "{228, 0}";
+			sepNavVisRange = "{0, 883}";
 			sepNavWindowFrame = "{{199, 191}, {1038, 664}}";
 		};
 	};
 	F2BE44B411B5FE350027EA6B /* cpu.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {979, 536}}";
-			sepNavSelRange = "{427, 0}";
-			sepNavVisRange = "{0, 763}";
-			sepNavWindowFrame = "{{245, 149}, {1038, 664}}";
+			sepNavSelRange = "{329, 0}";
+			sepNavVisRange = "{0, 718}";
+			sepNavWindowFrame = "{{574, 267}, {1038, 664}}";
 		};
 	};
 	F2BE44B511B5FE350027EA6B /* cpu.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {979, 1260}}";
-			sepNavSelRange = "{605, 0}";
-			sepNavVisRange = "{0, 1100}";
-			sepNavWindowFrame = "{{222, 170}, {1038, 664}}";
+			sepNavIntBoundsRect = "{{0, 0}, {848, 1274}}";
+			sepNavSelRange = "{1467, 0}";
+			sepNavVisRange = "{0, 1096}";
+			sepNavWindowFrame = "{{385, 189}, {1038, 664}}";
+		};
+	};
+	F2BE44DE11B601010027EA6B /* cpu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {848, 602}}";
+			sepNavSelRange = "{174, 0}";
+			sepNavVisRange = "{0, 176}";
 		};
 	};
 }

@@ -9,7 +9,7 @@
 #ifndef __ARCH__X86__TYPES_H__
 #define __ARCH__X86__TYPES_H__
 
-#if ARCH==x32
+#if SUBARCH==x32
 	#include "x32/types.h"
 #endif
 

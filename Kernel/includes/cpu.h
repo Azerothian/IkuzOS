@@ -6,6 +6,7 @@
  *  Copyright 2010 __MyCompanyName__. All rights reserved.
  *
  */
-#if SUBARCH==x32
-	#include "x32/cpu.h"
+#if ARCH==x86
+	#include "../arch/x86/cpu.h"
 #endif
+

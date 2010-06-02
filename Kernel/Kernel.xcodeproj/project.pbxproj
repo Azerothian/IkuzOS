@@ -48,6 +48,8 @@
 		F2BE449D11B5FAD10027EA6B /* x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x86.h; sourceTree = "<group>"; };
 		F2BE44B411B5FE350027EA6B /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
 		F2BE44B511B5FE350027EA6B /* cpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpu.c; sourceTree = "<group>"; };
+		F2BE44DE11B601010027EA6B /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
+		F2BE44E411B6017B0027EA6B /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -82,6 +84,7 @@
 				F238111C11B4843C00324A5A /* types.h */,
 				F238111D11B4843C00324A5A /* x32 */,
 				F2BE449D11B5FAD10027EA6B /* x86.h */,
+				F2BE44E411B6017B0027EA6B /* cpu.h */,
 			);
 			path = x86;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				F28B31F711B34EC50064A9DC /* io.h */,
 				F28B31F811B34EC50064A9DC /* textmode.h */,
 				F28B31F911B34EC50064A9DC /* types.h */,
+				F2BE44DE11B601010027EA6B /* cpu.h */,
 			);
 			path = includes;
 			sourceTree = "<group>";

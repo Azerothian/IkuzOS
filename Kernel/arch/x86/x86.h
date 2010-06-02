@@ -9,7 +9,7 @@
 #ifndef __ARCH__X86__X86_H__
 #define __ARCH__X86__X86_H__
 
-#if ARCH==x32
+#if SUBARCH==x32
 	#include "x32/x86.h"
 #endif
 
