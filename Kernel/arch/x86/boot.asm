@@ -20,6 +20,7 @@ dd CHECKSUM
 ; ----- Multiboot Header Ends Here -----
 
 start:
+push ebx;
 call _kernel_main
 cli ; stop interrupts
 hlt ; halt the CPU

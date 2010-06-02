@@ -39,7 +39,7 @@ TVIDOBJ=video/textmode.o
 FSOBJ=fs/fat_12.o fs/fat_32.o
 
 # All Kernel Objects
-KOBJ=$(KLDROBJ) main.o $(IOOBJ) $(TVIDOBJ) $(FSOBJ) $(HWIOBJ) $(x86OBJ)
+KOBJ=$(KLDROBJ) main.o $(KCPUOBJ) $(IOOBJ) $(TVIDOBJ) $(FSOBJ) $(HWIOBJ) $(x86OBJ)
 
 #Rules
 %.o:%.c
