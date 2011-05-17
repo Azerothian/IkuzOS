@@ -11,7 +11,6 @@
 #include <io.h>
 #include <textmode.h>
 #include <fat.h>
-#include "drivers/ata/ata.h"
 
 
 void _kernel_main();

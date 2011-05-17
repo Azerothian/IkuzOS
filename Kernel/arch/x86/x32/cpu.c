@@ -10,81 +10,126 @@
 #include "cpu.h"
 #include "../x86.h"
 
-/* segment descriptor constants (upper word) */
-#define SEG_PAGE_GRANULARITY (1 << 23)
-#define SEG_PRESENT          (1 << 15)
-#define SEG_CODE_OR_DATA     (1 << 12) /* system bit = 1 */
-#define SEG_DB               (1 << 22)
-#define SEG_TYPE_CODE        (0xA << 8) /* code, !conforming, readable, !accessed */
-#define SEG_TYPE_DATA        (0x2 << 8) /* data, expand-up, writable, !accessed */
-#define SEG_TYPE_TSS         (0x9 << 8) /* 32 bit, !busy */
-
-/* Get the current value of the eflags register */
-__inline__ u32_t get_eflags(void)
+void outportb(uint32_t port, uint8_t outdata)
 {
-	u32_t eflags;
-	asm volatile("pushfl; popl %0":"=a" (eflags));
-	return eflags;
+	__asm__ __volatile__("outb %b0, %w1" : : "a"(outdata), "d"(port));
 }
 
-/* Set the current value of the eflags register */
-__inline__ void set_eflags(u32_t eflags)
+uint8_t inportb(uint16_t port)
 {
-	asm volatile("pushl %0; popfl"::"a" (eflags));
+	uint8_t retVal;
+
+	__asm__ __volatile__("inb %1, %0" : "=a"(retVal) : "d"(port));
+	return retVal;
 }
 
-/* Get the current value of the cr0 register */
-__inline__ u32_t get_cr0(void)
+void outportw(uint16_t port, uint16_t data)
 {
-	u32_t cr0;
-	asm volatile("movl %%cr0, %0" : "=a" (cr0));
-	return cr0;
+	__asm__ __volatile__("outw %1, %0" : : "dN"(port), "a"(data));
 }
 
-/* Set the current value of the cr0 register */
-__inline__ void set_cr0(u32_t cr0)
+uint16_t inportw(uint16_t port)
 {
-	asm volatile("movl %0, %%cr0" :: "a" (cr0));
+	uint16_t retVal;
+	__asm__ __volatile__("inw %1, %0" : "=a"(retVal) : "d"(port));
+	return retVal;
 }
 
-/* Get the current value of the cr3 register */
-__inline__ u32_t get_cr3(void)
+void outportdw(uint16_t port, uint32_t data)
 {
-	u32_t cr3;
-	asm volatile("movl %%cr3, %0" : "=a" (cr3));
-	return cr3;
+	__asm__ __volatile__("outl %1, %0" : : "dN"(port), "a"(data));
 }
 
-/* Set the current value of the cr3 register */
-__inline__ void set_cr3(u32_t cr3)
+uint32_t inportdw(uint16_t port)
 {
-	asm volatile("movl %0, %%cr3" :: "a" (cr3));
+	uint32_t retVal;
+
+	__asm__ __volatile__("inl %%dx, %%eax" : "=a"(retVal) : "d"(port));
+	return retVal;
 }
 
-/* Get the current value of the cr4 register */
-__inline__ u32_t get_cr4(void)
+void hlt(void)
 {
-	u32_t cr4;
-	asm volatile("movl %%cr4, %0" : "=a" (cr4));
-	return cr4;
+	__asm__ __volatile__("hlt" : : : "memory");
 }
 
-/* Set the current value of the cr4 register */
-__inline__ void set_cr4(u32_t cr4)
+void invlpg(_dword_union address)
 {
-	asm volatile("movl %0, %%cr4" :: "a" (cr4));
+	__asm__ __volatile__("invlpg (%0)" : : "r"(address.u));
 }
 
-/* Init the Interrupt Gate */
-void x86_init_int_gate(struct x86_interrupt_gate *gate, u32_t addr, int dpl)
+void disableInts(void)
 {
-	gate->offset_low = addr & 0xffff;
-	gate->segment_selector = KERN_CS;
-	gate->reserved = 0;
-	gate->signature = 0x70;  /* == 01110000b */
-	gate->dpl = dpl;
-	gate->present = 1;
-	gate->offset_high = addr >> 16;
+	__asm__ __volatile__("cli");
 }
 
+void enableInts(void)
+{
+	__asm__ __volatile__("sti");
+}
 
+unsigned long get_cr2(void)
+{
+	unsigned long result;
+	__asm__ __volatile__("mov %%cr2,%0" : "=r"(result));
+	return result;
+}
+
+unsigned long get_cr3(void)
+{
+	unsigned long result;
+	__asm__ __volatile__("mov %%cr3,%0" : "=r"(result));
+	return result;
+}
+
+unsigned long get_cr4(void)
+{
+	unsigned long result;
+	__asm__ __volatile__("mov %%cr4,%0" : "=r"(result));
+	return result;
+}
+
+void set_cr0(unsigned long value)
+{
+	__asm__ __volatile__("mov %0,%%cr0" : : "r"(value));
+}
+
+void set_cr3(unsigned long value)
+{
+	__asm__ __volatile__("mov %0,%%cr3" : : "r"(value));
+}
+
+void set_cr4(unsigned long value)
+{
+	__asm__ __volatile__("mov %0,%%cr4" : : "r"(value));
+}
+
+void set_pdbr(_dword_union pdbr)
+{
+	__asm__ __volatile__("mov %0,%%cr3" : : "r"(pdbr.u));
+}
+
+void ltr(uint16_t selector)
+{
+	__asm__ __volatile__("ltr %0" : : "rm"(selector));
+}
+
+void lgdt(_dword_union base, uint16_t limit)
+{
+	struct
+	{
+		unsigned short limit __attribute__((__packed__));
+		unsigned long base __attribute__((__packed__));
+	} pack = {limit, base.u};
+	__asm__ __volatile__("lgdt %0" : : "m"(pack));
+}
+
+void lidt(_dword_union base1, uint16_t limit1)
+{
+	struct
+	{
+		uint16_t limit __attribute__((__packed__));
+		uint32_t base __attribute__((__packed__));
+	} pack = {limit1, base1.u};
+	__asm__ __volatile__("lidt (%0)" : : "p"(&pack));
+}

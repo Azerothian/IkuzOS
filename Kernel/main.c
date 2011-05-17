@@ -6,14 +6,29 @@
  */
 void _kernel_main()
 {
+	time_t startTime;
+
+	// Disable Interrupts
+	disableInts();
+
+	// If we are running on x86 then load in the Global Descriptor Table
+	#if ARCH==x86
+		initGDT();
+	#endif
+
+	// Set the OS Startup Time
+	startTime = rtcGetTime();
+	setStartupTime(startTime);
+
+	// Clear the Screen
     clear_screen();
     printk("IkuzOS is Starting Up!\n");
+    unsigned short total;
+    total = get_cmos_mem();
+    printk("Total System Memory : ");
+    print_int(total);
+    printk(" Kb \n");
 	
-	u32_t cr0;
-	cr0 = get_cr0();
-	
-	printk(cr0);
-
     // Halt the System
     set_color(RED);
     printk("System Is Now Halting.....\n");

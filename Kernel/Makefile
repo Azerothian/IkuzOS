@@ -1,36 +1,21 @@
-# Detect the OS
-UNAME := $(shell uname)
-
-ifeq ($(UNAME), Darwin)
-# Compilers to Use for MacOS X using Macports gcc
-CC=i386-elf-gcc-4.3.2
-LD=i386-elf-ld
-NASM=nasm
-endif
-
-# Architecture to Build For
-ARCH=x86
-SUBARCH=x32
-
-# Include Directories
-INCLUDES=includes
-
-# Compilation Flags
-CFLAGS=-Wall -Wextra -nostdlib -nostartfiles -nodefaultlibs -fno-omit-frame-pointer -fno-builtin -ffreestanding
-CDEBUG=-D__DEBUG__ -DARCH=$(ARCH) -DSUBARCH=$(SUBARCH)
-NASMFLAGS=-f elf
+include ../makefile.inc
 
 # Kernel Loader
-KLDROBJ=arch/$(ARCH)/boot.o
+KLDROBJ=arch/$(IKUZOS_ARCH)/boot.o
+
+# NewLib
+#NEWLIBOBJ=libs/$(ARCH)/$(SUBARCH)/libc.a
 
 #Kernel CPU Specific
-KCPUOBJ=arch/$(ARCH)/$(SUBARCH)/cpu.o
+KCPUOBJ=arch/$(IKUZOS_ARCH)/$(IKUZOS_SUBARCH)/cpu.o
 
-# Kernel IO
-IOOBJ=io/cli.o io/sti.o io/hlt.o io/outb.o io/inb.o io/insl.o io/pcspk.o
+# Kernel Arch
+KRNASRC := $(shell ls arch/$(IKUZOS_ARCH)/*.c)
+KRNAOBJ=$(KRNASRC:.c=.o)
 
-# Hardware Drivers
-HWIOBJ=drivers/ata/ata.o
+# Kernel Mode Drivers
+KRNDSRC := $(shell ls drivers/*.c)
+KRNDOBJ=$(KRNDSRC:.c=.o)
 
 # Textmode Video
 TVIDOBJ=video/textmode.o
@@ -38,22 +23,26 @@ TVIDOBJ=video/textmode.o
 # Filesystem Objects
 FSOBJ=fs/fat_12.o fs/fat_32.o
 
+# Include Directories
+INCLUDES = includes
+
 # All Kernel Objects
-KOBJ=$(KLDROBJ) main.o $(KCPUOBJ) $(IOOBJ) $(TVIDOBJ) $(FSOBJ) $(HWIOBJ) $(x86OBJ)
+KOBJ=$(KLDROBJ) main.o ikzlib/ikzlib.o $(KCPUOBJ) $(IKZLOBJ) $(KRNAOBJ) $(KRNDOBJ) $(IOOBJ) $(TVIDOBJ) $(FSOBJ) $(HWIOBJ) $(x86OBJ) $(NEWLIBOBJ)
 
-#Rules
-%.o:%.c
-	$(CC) $(CFLAGS) -I $(INCLUDES) $(CDEBUG) -c -o $@ $<
-
-%.o:%.asm
-	$(NASM) $(NASMFLAGS) $< -o $@
+# Build Flags
+include buildflags.inc
 
 # Build the whole Kernel
-all: kernel
+all: ikzlib kernel
 
 kernel: $(KOBJ)
-	$(LD) -T arch/$(ARCH)/link.ld -o IKZKERN $(KOBJ)
+		$(LD) $(LD_KERNEL_FLAGS) -o ../build/$(IKUZOS_ARCH)/$(IKUZOS_SUBARCH)/IKZKERN $(KOBJ)
+	
+ikzlib/ikzlib.o: 
+		@make -C ikzlib all
 
 clean:
-	rm -rf $(foreach OBJ,$(KOBJ),$(OBJ))
-	rm -rf IKZKERN
+		rm -rf $(foreach OBJ,$(KOBJ),$(OBJ))
+		@make -C ikzlib clean
+	
+include buildrules.inc
