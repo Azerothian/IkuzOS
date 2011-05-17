@@ -8,6 +8,8 @@
 #ifndef _ATA_H
 #define	_ATA_H
 
+#include<io.h>
+
 // Channels:
 #define      ATA_PRIMARY      0x00
 #define      ATA_SECONDARY    0x01

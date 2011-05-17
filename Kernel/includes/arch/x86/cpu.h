@@ -6,6 +6,11 @@
  *  Copyright 2010 __MyCompanyName__. All rights reserved.
  *
  */
-#if SUBARCH==x32
-	#include "x32/cpu.h"
+#ifndef __ARCH__X86__CPU_H__
+#define __ARCH__X86__CPU_H__
+
+	#if SUBARCH==x32
+		#include<arch/x86/x32/cpu.h>
+	#endif
+
 #endif

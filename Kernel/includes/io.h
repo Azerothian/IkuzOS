@@ -7,6 +7,8 @@
 #ifndef _IO_H
 #define	_IO_H
 
+	#include<cpu.h>
+
     // CLear the Interrupt Flags
     void cli();
 
@@ -15,11 +17,6 @@
 
     // Halt the CPU
     void hlt();
-
-    // Standard IO
-    void outb(unsigned short port, unsigned char val);
-    unsigned char inb(unsigned short port);
-    void insl(unsigned short port, unsigned int buffer, unsigned long count);
 
     // PC Speaker
     void k_pcspk_play_sound(unsigned int nFrequence);

@@ -14,8 +14,8 @@ KRNASRC := $(shell ls arch/$(IKUZOS_ARCH)/*.c)
 KRNAOBJ=$(KRNASRC:.c=.o)
 
 # Kernel Mode Drivers
-KRNDSRC := $(shell ls drivers/*.c)
-KRNDOBJ=$(KRNDSRC:.c=.o)
+KRNDSRC := $(shell find ./drivers -name "*.c")
+KRNDOBJ := $(KRNDSRC:.c=.o)
 
 # Textmode Video
 TVIDOBJ=video/textmode.o
@@ -33,15 +33,20 @@ KOBJ=$(KLDROBJ) main.o ikzlib/ikzlib.o $(KCPUOBJ) $(IKZLOBJ) $(KRNAOBJ) $(KRNDOB
 include buildflags.inc
 
 # Build the whole Kernel
-all: ikzlib kernel
+all: prep ikzlib kernel
 
 kernel: $(KOBJ)
-		$(LD) $(LD_KERNEL_FLAGS) -o ../build/$(IKUZOS_ARCH)/$(IKUZOS_SUBARCH)/IKZKERN $(KOBJ)
+		$(LD) $(LD_KERNEL_FLAGS) -o ../build/$(IKUZOS_ARCH)_$(IKUZOS_SUBARCH)/IKZKERN $(KOBJ)
 	
 ikzlib/ikzlib.o: 
 		@make -C ikzlib all
+			
+prep:
+		@mkdir build
+		@mkdir build/$(IKUZOS_ARCH)_$(IKUZOS_SUBARCH)
 
 clean:
+		rm -rf build
 		rm -rf $(foreach OBJ,$(KOBJ),$(OBJ))
 		@make -C ikzlib clean
 	

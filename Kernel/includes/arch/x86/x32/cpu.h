@@ -6,6 +6,8 @@
  *  Copyright 2010 __MyCompanyName__. All rights reserved.
  *
  */
+#ifndef __ARCH__X86__X32__CPU_H__
+#define __ARCH__X86__X32__CPU_H__
 #include <types.h>
 
 typedef struct _regs_t
@@ -107,3 +109,5 @@ void ltr(uint16_t selector);
 void lgdt(_dword_union base, uint16_t limit);
 void lidt(_dword_union base, uint16_t limit);
 int detectCpu(void);
+
+#endif

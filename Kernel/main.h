@@ -7,7 +7,6 @@
 
 /* -- Include the main kernel libraries for base functionality */
 #include <types.h>
-#include <cpu.h>
 #include <io.h>
 #include <textmode.h>
 #include <fat.h>

@@ -7,8 +7,7 @@
  *
  */
 
-#include "cpu.h"
-#include "../x86.h"
+#include <cpu.h>
 
 void outportb(uint32_t port, uint8_t outdata)
 {
